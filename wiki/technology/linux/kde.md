@@ -70,3 +70,28 @@ When kde taskbar crashes (hopefully won't be needed under 6):
 
 
 
+
+
+Standard date format to iso8601
+-------------------------------
+Things like dolphin use system date/time settings
+
+To set the global date format to iso8601:
+
+Override date format in Settings -> Langauge & Time -> Region & Language -> Time
+
+Best results so far with en_CA (Canadian) - rsgain was giving errors with en_SE (Swedish).
+
+Might need to reboot.
+
+Or some combo of:
+
+	sudo locale-gen en_CA.UTF-8
+
+	echo $LC_TIME
+
+	sudo localectl set-locale LC_TIME=en_CA.utf8
+
+	/etc/default/locale
+
+
