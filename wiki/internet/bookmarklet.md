@@ -1,9 +1,5 @@
-Internet
-========
-
-
 Bookmarklet
------------
+===========
 
 
 ### Clean Google links
