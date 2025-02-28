@@ -85,3 +85,10 @@ https://en.wikipedia.org/wiki/Monad_(functional_programming)
 
 
 https://en.wikipedia.org/wiki/Method_chaining
+
+
+
+Research
+--------
+https://www.acm.org/publications/proceedings
+https://dl.acm.org/proceedings

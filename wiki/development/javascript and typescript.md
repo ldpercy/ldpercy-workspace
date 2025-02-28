@@ -56,3 +56,10 @@ Svelte
 ------
 https://svelte.dev/docs/faq
 https://blog.bitsrc.io/react-vs-sveltejs-the-war-between-virtual-and-real-dom-59cbebbab9e9?gi=23b0935b6b0a
+
+
+
+
+Tools
+-----
+https://github.com/lerna/lerna

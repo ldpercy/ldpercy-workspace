@@ -106,8 +106,15 @@ In `.gitattributes`:
 ```
 https://thelinuxcode.com/gitattribute-file-in-git/
 
+
 GitHub
 ------
 https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data-github
 
 > As long as one fork exists, any commit to that repository network (ie: commits on the “upstream” repo or “downstream” forks) will exist forever.
+
+
+
+Linus on merge-commits:
+	https://linux.slashdot.org/story/21/09/11/2316216/torvalds-merges-support-for-microsofts-ntfs-file-system-complains-github-creates-absolutely-useless-garbage-merges
+
