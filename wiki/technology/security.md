@@ -47,13 +47,6 @@ https://coveryourtracks.eff.org/
 
 
 
-### Firefox
-privacy.resistFingerprinting = true
-
-resistFingerprinting spoofs timezone, so will break some pages
-https://support.mozilla.org/en-US/questions/1297208
-
-
 ### Tools
 https://adnauseam.io/
 

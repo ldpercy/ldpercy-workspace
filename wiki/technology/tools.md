@@ -9,11 +9,6 @@ Open source alternative to Slack/Teams:
 
 
 
-Markdown:
-	https://www.zettlr.com/
-	qownnotes
-
-
 Research
 	zotero
 		https://en.wikipedia.org/wiki/Zotero
