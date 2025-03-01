@@ -69,29 +69,19 @@ When kde taskbar crashes (hopefully won't be needed under 6):
 
 
 
+Date format to iso8601
+----------------------
+Things like dolphin follow the user's locale settings (which are based upon the system [default locale](locale.md) set during install).
 
+Most locales don't use iso8601 for their date format so need to specifiy a time locale that does, such as en_CA (Canadian English).
 
+Settings -> Langauge & Time -> Region & Language -> Time
 
-Standard date format to iso8601
--------------------------------
-Things like dolphin use system date/time settings
-
-To set the global date format to iso8601:
-
-Override date format in Settings -> Langauge & Time -> Region & Language -> Time
-
-Best results so far with en_CA (Canadian) - rsgain was giving errors with en_SE (Swedish).
-
-Might need to reboot.
-
-Or some combo of:
-
-	sudo locale-gen en_CA.UTF-8
-
-	echo $LC_TIME
-
-	sudo localectl set-locale LC_TIME=en_CA.utf8
-
-	/etc/default/locale
+This gets stored in `~/.config/plasma-localerc` - example:
+```
+[Formats]
+LANG=en_AU.UTF-8
+LC_TIME=en_CA.UTF-8
+```
 
 
