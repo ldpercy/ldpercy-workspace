@@ -31,57 +31,6 @@ Luigi Tech - BACKUP: RSYNC vs BTRFS SEND/RECEIVE on Linux
 	https://www.youtube.com/watch?v=0JreEvSQK-0
 
 
-
-Subvolumes
-----------
-
-The base btrfs partition is the 'root' subvolume.
-
-Example output from `sudo btrfs subvolume show -h /my-btrfs-partition`:
-
-	/
-		Name:				<FS_TREE>
-		UUID:				[...]
-		Parent UUID:		-
-		Received UUID:		-
-		Creation time:		[...]
-		Subvolume ID:		5
-		Generation:			12345
-		Gen at creation:	0
-		Parent ID:			0
-		Top level ID:		0
-		Flags:			-
-		Send transid:		0
-		Send time:			[...]
-		Receive transid:	0
-		Receive time:		-
-		Snapshot(s):
-							my-subvolume
-		Quota group:		n/a
-
-Child subvolumes have the root subvolume as their parent - `sudo btrfs subvolume show -h my-subvolume`:
-
-	my-subvolume
-		Name: 				my-subvolume
-		UUID: 				[...]
-		Parent UUID: 		[...]
-		Received UUID: 		-
-		Creation time: 		[...]
-		Subvolume ID: 		123
-		Generation: 		54321
-		Gen at creation: 	43210
-		Parent ID: 			5
-		Top level ID: 		5
-		Flags: 				-
-		Send transid: 		0
-		Send time: 			[...]
-		Receive transid: 	0
-		Receive time: 		-
-		Snapshot(s):
-							my-subvolume.snapshot
-		Quota group:		n/a
-
-
 Tools
 -----
 
@@ -97,6 +46,14 @@ Where '12345' is an arbitrary number that changes with each launch of the progra
 It also makes other system snapshots visible in `/run/timeshift/12345/backup/`.
 
 Upon shutdown the directory disappears.
+
+### btrbk
+
+Command line based subvolume-backup utility.
+
+https://github.com/digint/btrbk
+https://digint.ch/btrbk/
+
 
 
 ### btrfs-assistant
@@ -117,7 +74,137 @@ which is in libnotify-bin
 	Plasma 6:
 	~/.local/share/kio/servicemenus
 
+Not working for me currently.
 
 ### btrfs-heatmap
 
 https://github.com/knorrie/btrfs-heatmap
+
+
+
+
+
+Subvolumes
+----------
+
+### Subvolume list
+```bash
+sudo btrfs subvolume list -a -t /my-btrfs-partition
+
+	ID      gen     top level       path
+	--      ---     ---------       ----
+	1001    50001   5               my-subvol1
+	1002    50002   5               my-subvol2
+	1003    50003   5               snapshot-dir
+	4001    70001   1527            <FS_TREE>/snapshot-dir/my-subvol1.snapshot
+	4002    70002   1527            <FS_TREE>/snapshot-dir/my-subvol1.snapshot
+
+```
+
+### Subvolume information
+
+The base btrfs partition is the 'root' subvolume.
+
+Example output from `sudo btrfs subvolume show -h /my-btrfs-partition`:
+```
+	/
+		Name:				<FS_TREE>
+		UUID:				[...]
+		Parent UUID:		-
+		Received UUID:		-
+		Creation time:		[...]
+		Subvolume ID:		5
+		Generation:			12345
+		Gen at creation:	0
+		Parent ID:			0
+		Top level ID:		0
+		Flags:			-
+		Send transid:		0
+		Send time:			[...]
+		Receive transid:	0
+		Receive time:		-
+		Snapshot(s):
+							my-subvolume1
+							my-subvolume2
+							snapshot-dir
+		Quota group:		n/a
+```
+Child subvolumes have the root subvolume as their parent - `sudo btrfs subvolume show -h my-subvolume1`:
+```
+	my-subvolume
+		Name: 				my-subvolume1
+		UUID: 				[...]
+		Parent UUID: 		[...]
+		Received UUID: 		-
+		Creation time: 		[...]
+		Subvolume ID: 		1001
+		Generation: 		50001
+		Gen at creation: 	40001
+		Parent ID: 			5
+		Top level ID: 		5
+		Flags: 				-
+		Send transid: 		0
+		Send time: 			[...]
+		Receive transid: 	0
+		Receive time: 		-
+		Snapshot(s):
+							my-subvolume1.snapshot
+		Quota group:		n/a
+```
+
+
+Common setup for BTRFS as root
+------------------------------
+
+Many distros follow this pattern.
+
+The installer creates two subvolumes on the main btrfs partition:
+
+	ID      gen     top level       path
+	--      ---     ---------       ----
+	123     54321   5               @
+	456     87654   5               @home
+
+Which get mounted in their usual places in `etc/fstab`:
+
+	UUID=11111111-2222-3333-4444-555555555555    /        btrfs   subvol=@        0    1
+	UUID=66666666-7777-8888-9999-000000000000    /home    btrfs   subvol=@home    0    2
+
+In day-to-day use you never really 'see' these subvolumes, they're entirely transparent.
+
+Timeshift will snapshot the `@` subvolume according to your settings with names like:
+
+	timeshift-btrfs/snapshots/2025-01-01_01-01-01/@
+
+Apt will automatically take snapshots during distribution-upgrades as:
+
+	@apt-snapshot-release-upgrade-foobar-2025-01-01_01:01:01
+
+NB while the timeshift GUI is running these snapshots are visible under `/run/timeshift/`.
+
+
+Snapshots
+---------
+
+Tools such as Timeshift and btrbk make this easier.
+
+Via commandline:
+
+	sudo btrfs subvolume snapshot /btrfs-parition/subvolume-name  /btrfs-parition/subvolume-name.snapshot
+
+
+Manual Rollback of `@`
+----------------------
+
+In emergencies you can rollback to an earlier `@` (root) snapshot with this technique, though many caveats apply.
+Do this from a different machine or live media.
+
+First rename the problematic `@` subvolume to something else:
+
+	sudo mv /different-host/guest-btrfs-partition/@  /different-host/guest-btrfs-partition/@-broken
+
+Then create a brand new snapshot of a known good point in the past, this time calling it `@`:
+
+	sudo btrfs subvolume snapshot /different-host/guest-btrfs-partition/@-good-snapshot  /different-host/guest-btrfs-partition/@
+
+With luck this will take you back your previous state.
