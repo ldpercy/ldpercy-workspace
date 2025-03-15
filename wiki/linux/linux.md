@@ -51,7 +51,7 @@ Get shell options:
 
 	shopt
 
-Kernel paramters
+Kernel parameters
 
 	sysctl -a
 
