@@ -1,33 +1,36 @@
 Git
 ===
 
-* ~145 commands in Git
-* 28 hooks in Git, 11 common/ useful
 
 
-Videos
-------
+Modifying commits
+-----------------
 
-So You Think You Know Git - FOSDEM 2024
-https://www.youtube.com/watch?v=aolI_Rz0ZqY
+### Amend the last commit
 
-	includeif: different paths for different git configs
-	rerere: reuse merge conflict resolution
-	force with lease - should be default
-	git maintenance
-	submodules suck
+	git amend -m "Updated commit message"
 
-So You Think You Know Git Part 2 - DevWorld 2024
-https://www.youtube.com/watch?v=Md44rcw13k4
+If the commit was already pushed, do a force push as well:
 
-	checkout is overloaded, hence switch & restore
-	.gitattributes - preprocess files before diff, eg image exit
-		smudge & clean
-		this is how LFS works
-	--fixup
-	scalar clone for v.large repos
-	worktrees for working on multiple branches simultaneously
+	git push --force
 
+
+### Undo a commit & push
+
+https://stackoverflow.com/questions/448919/how-can-i-remove-a-commit-on-github
+
+
+
+Storing Binaries
+----------------
+
+https://www.devgem.io/posts/adding-and-managing-pdfs-in-git-repositories-a-practical-guide
+
+In `.gitattributes`:
+```
+*.pdf binary
+```
+https://thelinuxcode.com/gitattribute-file-in-git/
 
 
 
@@ -87,26 +90,6 @@ https://youtu.be/Md44rcw13k4?t=479
 
 
 
-Undo a commit & push
---------------------
-
-https://stackoverflow.com/questions/448919/how-can-i-remove-a-commit-on-github
-
-
-
-
-Storing Binaries
-----------------
-
-https://www.devgem.io/posts/adding-and-managing-pdfs-in-git-repositories-a-practical-guide
-
-In `.gitattributes`:
-```
-*.pdf binary
-```
-https://thelinuxcode.com/gitattribute-file-in-git/
-
-
 GitHub
 ------
 https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data-github
@@ -117,4 +100,40 @@ https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data
 
 Linus on merge-commits:
 	https://linux.slashdot.org/story/21/09/11/2316216/torvalds-merges-support-for-microsofts-ntfs-file-system-complains-github-creates-absolutely-useless-garbage-merges
+
+
+
+Videos
+------
+
+* ~145 commands in Git
+* 28 hooks in Git, 11 common/ useful
+
+
+
+So You Think You Know Git - FOSDEM 2024
+https://www.youtube.com/watch?v=aolI_Rz0ZqY
+
+	includeif: different paths for different git configs
+	rerere: reuse merge conflict resolution
+	force with lease - should be default
+	git maintenance
+	submodules suck
+
+So You Think You Know Git Part 2 - DevWorld 2024
+https://www.youtube.com/watch?v=Md44rcw13k4
+
+	checkout is overloaded, hence switch & restore
+	.gitattributes - preprocess files before diff, eg image exit
+		smudge & clean
+		this is how LFS works
+	--fixup
+	scalar clone for v.large repos
+	worktrees for working on multiple branches simultaneously
+
+
+UI Tools
+--------
+
+https://github.com/gitui-org/gitui
 
