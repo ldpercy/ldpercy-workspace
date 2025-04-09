@@ -1,7 +1,10 @@
 Git
 ===
 
+List remotes
+------------
 
+	git remote --verbose
 
 Modifying commits
 -----------------
