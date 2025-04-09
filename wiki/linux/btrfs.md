@@ -193,6 +193,16 @@ Via commandline:
 	sudo btrfs subvolume snapshot /btrfs-parition/subvolume-name  /btrfs-parition/subvolume-name.snapshot
 
 
+Exclusive and shared size
+-------------------------
+
+Useful for showing differences between snapshots and sources:
+
+	btrfs filesystem du  --summarize [path]
+
+
+
+
 Manual Rollback of `@`
 ----------------------
 
