@@ -1,34 +1,30 @@
 BTRFS
 =====
 
+Mount Options
+-------------
 
+https://btrfs.readthedocs.io/en/latest/ch-mount-options.html
 
-https://btrfs.wiki.kernel.org/index.php/Main_Page#External_Btrfs_Documentation_.2F_Guides
+### autodefrag
 
-https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs(5)#MOUNT_OPTIONS
-https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-subvolume
+Default off, may be helpful on hard disks.
+Mentioned as helpful for things like firefox's database:
+https://archive.kernel.org/oldwiki/btrfs.wiki.kernel.org/index.php/Gotchas.html#Fragmentation
 
+### compress
 
-https://btrfs.wiki.kernel.org/index.php/FAQ#Can_I_have_nodatacow_.28or_chattr_.2BC.29_but_still_have_checksumming.3F
+https://btrfs.readthedocs.io/en/latest/Compression.html
+Default: off
+Has to be specified if wanted
 
-https://btrfs.wiki.kernel.org/index.php/UseCases#Snapshots_and_subvolumes
+	compress=lzo  - fastest
 
-https://btrfs.wiki.kernel.org/index.php/Incremental_Backup
+### space_cache
 
-https://btrfs.wiki.kernel.org/index.php/SysadminGuide#When_To_Make_Subvolumes
-https://btrfs.wiki.kernel.org/index.php/Project_ideas#Cleanup_projects
+Default: space_cache=v2
 
-
-https://wiki.archlinux.org/index.php/Btrfs
-https://help.ubuntu.com/community/btrfs
-https://www.reddit.com/r/btrfs/
-
-https://facebookmicrosites.github.io/btrfs/docs/btrfs-facebook.html
-
-
-
-Luigi Tech - BACKUP: RSYNC vs BTRFS SEND/RECEIVE on Linux
-	https://www.youtube.com/watch?v=0JreEvSQK-0
+space_cache=v2 good for large (tb range) disks
 
 
 Tools
@@ -81,7 +77,9 @@ Not working for me currently.
 https://github.com/knorrie/btrfs-heatmap
 
 
+### btrfs maintenance
 
+https://github.com/kdave/btrfsmaintenance
 
 
 Subvolumes
@@ -190,7 +188,12 @@ Tools such as Timeshift and btrbk make this easier.
 
 Via commandline:
 
-	sudo btrfs subvolume snapshot /btrfs-parition/subvolume-name  /btrfs-parition/subvolume-name.snapshot
+	sudo btrfs subvolume snapshot /btrfs-partition/subvolume-name  /btrfs-partition/subvolume-name.snapshot
+
+
+### Change read-only status
+
+	sudo btrfs property set /btrfs-partition/subvolume-name ro false
 
 
 Exclusive and shared size
@@ -218,3 +221,39 @@ Then create a brand new snapshot of a known good point in the past, this time ca
 	sudo btrfs subvolume snapshot /different-host/guest-btrfs-partition/@-good-snapshot  /different-host/guest-btrfs-partition/@
 
 With luck this will take you back your previous state.
+
+
+
+
+
+References
+----------
+
+https://btrfs.wiki.kernel.org/index.php/Main_Page#External_Btrfs_Documentation_.2F_Guides
+
+https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs(5)#MOUNT_OPTIONS
+https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-subvolume
+
+
+https://btrfs.wiki.kernel.org/index.php/FAQ#Can_I_have_nodatacow_.28or_chattr_.2BC.29_but_still_have_checksumming.3F
+
+https://btrfs.wiki.kernel.org/index.php/UseCases#Snapshots_and_subvolumes
+
+https://btrfs.wiki.kernel.org/index.php/Incremental_Backup
+
+https://btrfs.wiki.kernel.org/index.php/SysadminGuide#When_To_Make_Subvolumes
+https://btrfs.wiki.kernel.org/index.php/Project_ideas#Cleanup_projects
+
+
+https://wiki.archlinux.org/index.php/Btrfs
+https://help.ubuntu.com/community/btrfs
+https://www.reddit.com/r/btrfs/
+
+https://facebookmicrosites.github.io/btrfs/docs/btrfs-facebook.html
+
+
+
+Luigi Tech - BACKUP: RSYNC vs BTRFS SEND/RECEIVE on Linux
+	https://www.youtube.com/watch?v=0JreEvSQK-0
+
+
