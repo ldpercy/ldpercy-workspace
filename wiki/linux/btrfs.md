@@ -27,6 +27,19 @@ Default: space_cache=v2
 space_cache=v2 good for large (tb range) disks
 
 
+### default mount options for auto-mounted disks
+
+https://www.reddit.com/r/linux/comments/imgler/btrfs_relatime_vs_noatime_huge_performance/
+
+> a much better solution is to create a /etc/udisks2/mount_options.conf file that defines the default mount options for externally mounted drives that are "auto mounted" using udisks2
+
+Example:
+```conf
+[defaults]
+btrfs_defaults=noatime,space_cache=v2,compress=lzo
+btrfs_allow=noatime,space_cache,compress,compress-force,datacow,nodatacow,datasum,nodatasum,degraded,device,discard,nodiscard,subvol,subvolid
+```
+
 Tools
 -----
 
