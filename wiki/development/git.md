@@ -1,6 +1,20 @@
 Git
 ===
 
+
+Default branch name
+-------------------
+
+> $ git config --global init.defaultBranch main
+
+Equivalent in `~./gitconfig`:
+
+```
+[init]
+	defaultBranch = main
+```
+
+
 List remotes
 ------------
 
