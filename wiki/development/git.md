@@ -20,6 +20,28 @@ List remotes
 
 	git remote --verbose
 
+
+Remote on local filesystem
+--------------------------
+Create a remote on a local filesystem for push/pull.
+
+
+Create a bare repository that will become the noew remote:
+```
+$ git init --bare /path/to/remote/foobar.git
+```
+
+Add that repo location as a remote to the project:
+```
+project/foobar$ git remote add local-remote /path/to/remote/foobar.git
+```
+
+To push to that remote only:
+```
+git push local-remote
+```
+
+
 Modifying commits
 -----------------
 
