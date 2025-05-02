@@ -26,20 +26,21 @@ Remote on local filesystem
 Create a remote on a local filesystem for push/pull.
 
 
-Create a bare repository that will become the noew remote:
+Create a bare repository that will become the new remote:
 ```
 $ git init --bare /path/to/remote/foobar.git
 ```
 
-Add that repo location as a remote to the project:
+Add the new bare repository's path as a remote to the project, and give the remote a name:
 ```
-project/foobar$ git remote add local-remote /path/to/remote/foobar.git
+project/foobar$ git remote add myRemote /path/to/remote/foobar.git
 ```
 
 To push to that remote only:
 ```
-git push local-remote
+git push myRemote
 ```
+
 
 
 Modifying commits
