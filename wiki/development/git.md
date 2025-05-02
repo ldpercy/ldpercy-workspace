@@ -21,6 +21,13 @@ List remotes
 	git remote --verbose
 
 
+View and change remote URLs:
+
+	git remote get-url remoteName
+	gut remote set-url remoteName remoteUrl
+
+
+
 Remote on local filesystem
 --------------------------
 Create a remote on a local filesystem for push/pull.
