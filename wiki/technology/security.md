@@ -29,6 +29,14 @@ https://arstechnica.com/tech-policy/2014/05/photos-of-an-nsa-upgrade-factory-sho
 
 
 
+Devices
+-------
+https://en.wikipedia.org/wiki/The_Thing_(listening_device)
+
+
+
+
+
 Mitigations
 -----------
 
