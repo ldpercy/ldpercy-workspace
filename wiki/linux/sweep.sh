@@ -12,7 +12,9 @@ rm ~/.cache/drkonqi/application-not-responding/*
 rm ~/.cache/thumbnails/*/*
 
 rm ~/.local/share/recently-used.xbel
+rm ~/.local/share/user-places.xbel
 
-rm ~/.local/share/okular/docdata/*
+
+## rm ~/.local/share/okular/docdata/*
 
 
