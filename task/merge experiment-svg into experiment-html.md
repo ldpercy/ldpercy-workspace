@@ -189,3 +189,7 @@ Go live with new repo
 
 Let's give it a crack.
 
+Well I've renamed the old one, copied the merged one into my local `ldpercy` folder and updated it's remotes.
+Have pushed up to github and seems okay so far,  will monitor.
+
+Looking okay, cleaning things up in experiment-html, and am starting to archive/decommission experiment-svg.
