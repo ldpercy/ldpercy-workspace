@@ -4,7 +4,9 @@ Merge experiment-svg into experiment-html
 The svg repo has ended up pretty similar to the html one, using copied code in some places, and now both using html-common.
 Might as well jam them together to unify things.
 
-
+```
+2026-02-25		wrapup & done
+```
 
 
 Here's the technique I used for merging my computer workspace into my personal workspace:
@@ -193,3 +195,14 @@ Well I've renamed the old one, copied the merged one into my local `ldpercy` fol
 Have pushed up to github and seems okay so far,  will monitor.
 
 Looking okay, cleaning things up in experiment-html, and am starting to archive/decommission experiment-svg.
+
+
+Wrapup
+======
+
+Have been working with this for about a month, all fine in the new world so will close this.
+
+* Used the filtered remote + --allow-unrelated-histories method to merge experiment-svg into experiment-html
+* Tested pushing to a temp copy of the bare experiment-html.git, worked fine
+* Cleaned up the submodule remnants from experiment-svg
+* Set the github copy of experiment-svg to 'archive' mode
