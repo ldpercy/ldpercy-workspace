@@ -17,7 +17,7 @@ LVM on LUKS
 https://wiki.archlinux.org/title/Dm-crypt/Encrypting_an_entire_system#LVM_on_LUKS
 
 Looks something like this:
-
+```
 	disk
 		part1
 			efi
@@ -30,7 +30,7 @@ Looks something like this:
 						home
 					lv-part3
 						swap
-
+```
 
 https://www.linux.com/training-tutorials/how-full-encrypt-your-linux-system-lvm-luks/
 

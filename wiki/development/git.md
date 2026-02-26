@@ -2,8 +2,10 @@ Git
 ===
 
 
-Default branch name
--------------------
+Config
+------
+
+### Default branch name
 
 > $ git config --global init.defaultBranch main
 
@@ -15,17 +17,47 @@ Equivalent in `~./gitconfig`:
 ```
 
 
-List remotes
-------------
+### Set default log format to iso8601
+
+```bash
+git config --global log.date iso
+```
+
+Equivalent in  `~/.gitconfig`:
+```
+[log]
+	date = iso
+```
+
+Caveats regarding git's iso8601 formatting:
+https://stackoverflow.com/questions/7853332/how-to-change-git-log-date-formats/26961614#26961614
+
+
+Branches
+--------
+
+
+Show branches with their upstreams:
+
+	git branch -vv
+
+
+
+Remotes
+-------
+
+### List
 
 	git remote --verbose
 
-
-View and change remote URLs:
+### View and change remote URLs:
 
 	git remote get-url remoteName
-	gut remote set-url remoteName remoteUrl
+	git remote set-url remoteName remoteUrl
 
+### Rename a remote
+
+	git remote rename <old-name> <new-name>
 
 
 Remote on local filesystem
@@ -34,17 +66,17 @@ Create a remote on a local filesystem for push/pull.
 
 
 Create a bare repository that will become the new remote:
-```
+```bash
 $ git init --bare /path/to/remote/foobar.git
 ```
 
 Add the new bare repository's path as a remote to the project, and give the remote a name:
-```
+```bash
 project/foobar$ git remote add myRemote /path/to/remote/foobar.git
 ```
 
 To push to that remote only:
-```
+```bash
 git push myRemote
 ```
 
@@ -65,6 +97,14 @@ If the commit was already pushed, do a force push as well:
 ### Undo a commit & push
 
 https://stackoverflow.com/questions/448919/how-can-i-remove-a-commit-on-github
+
+
+Tags
+----
+
+Signed tag:
+
+	git tag -s "v1.2.3" -m "Tag message"
 
 
 
@@ -95,27 +135,57 @@ https://git-scm.com/docs/git-am				git apply mail
 
 
 
-Repository Filtering with git-filter-repo
+
+
+Convert a sequence of commits to a branch
 -----------------------------------------
+https://stackoverflow.com/questions/364925/is-it-possible-to-retroactively-turn-a-set-of-commits-into-a-branch
+
+
+If you want all the commits *after* revision XXX to have happened in a branch:
+
+	$ git branch new-branch-name      # create the new branch
+	$ git reset --hard XXX            # reset current branch to commit XXX
+
+Force push to remote:
+
+	$ git push --force origin current-branch
+
+
+Deleted Files
+-------------
+
+A quick one-liner to find commits where deletions have occurred:
+```bash
+git log --diff-filter=D --format=reference
+```
+
+
+Repository filtering - git-filter-repo
+--------------------------------------
 
 https://github.com/newren/git-filter-repo/
 
+Manual:
 https://htmlpreview.github.io/?https://github.com/newren/git-filter-repo/blob/docs/html/git-filter-repo.html
 
 
-https://coderwall.com/p/0c-ayq/howto-split-a-git-repository-into-two
-https://www.endpoint.com/blog/2017/08/14/how-to-split-git-repositories-into-two
+```bash
+sudo apt install git-filter-repo
+```
 
 
+To only keep a specific directory (from a local copy):
 
-To only keep a specific directory:
+```bash
+git-filter-repo --force --path directoryName
+```
 
-	git-filter-repo --force --path directoryName
+To exclude a specific directory (from a local copy):
 
-To exclude a specific directory:
-
-	git-filter-repo --force --invert-paths --path directoryName
-
+```bash
+git-filter-repo --force --invert-paths --path directoryName
+```
 
 
 Pre-commit hooks
@@ -141,11 +211,6 @@ Linus on merge-commits:
 
 Videos
 ------
-
-* ~145 commands in Git
-* 28 hooks in Git, 11 common/ useful
-
-
 
 So You Think You Know Git - FOSDEM 2024
 https://www.youtube.com/watch?v=aolI_Rz0ZqY

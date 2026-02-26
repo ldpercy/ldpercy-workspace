@@ -33,7 +33,7 @@ https://askubuntu.com/questions/1442557/what-does-176-mean-in-linux-magic-sysrq-
 >	32 =  0x20 - enable remount read-only
 >	128 =  0x80 - allow reboot/poweroff
 
-So I think only s,u and b do anything.
+So only `s`,`u` and `b` actually do anything.
 
 
 Random

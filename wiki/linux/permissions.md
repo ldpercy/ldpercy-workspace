@@ -21,7 +21,7 @@ rwxrwxrwx
 	7	rwx
 
 	s	SUID or SGID
-	S	SUID or SGID, but not exexcutable (problem)
+	S	SUID or SGID, but not executable (problem)
 	t	sticky bit
 
 
@@ -79,7 +79,8 @@ Can be set in the terminal, or defaulted for the session in bashrc.
 
 Umask is inverted from ordinary octal permissions
 
-Mine is currently set to `0002`, seems to be common for ubuntu.
+Settings:
+	`0002` common for ubuntu.
 
 
 

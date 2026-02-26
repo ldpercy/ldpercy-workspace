@@ -24,6 +24,7 @@ Add user to libvirt-qemu group:
 
 	$ sudo adduser $USER libvirt-qemu
 
+
 Disks
 -----
 
@@ -50,9 +51,9 @@ That gets screen resizing working, might not get clipboard sharing going (possib
 
 	systemctl enable spice-vdagentd
 
-I have a scripted version here that I used for kubuntu:
+A scripted version here used for kubuntu:
 
-	project/linux-snippets/start spice-vdagentd.md
+	[Start spice-vdagent](<./start spice-vdagentd.md>)
 
 ### Ubuntu guest
 
@@ -69,11 +70,4 @@ Possible things to check:
 	display-spice address hypervisor default
 	channel-spice target virtio
 	spicevmc disconnected
-
-
-
-
-
-
-
 

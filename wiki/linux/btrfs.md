@@ -5,6 +5,7 @@ Mount Options
 -------------
 
 https://btrfs.readthedocs.io/en/latest/ch-mount-options.html
+https://wiki.tnonline.net/w/Btrfs/Mount_Options
 
 ### autodefrag
 
@@ -16,9 +17,9 @@ https://archive.kernel.org/oldwiki/btrfs.wiki.kernel.org/index.php/Gotchas.html#
 
 https://btrfs.readthedocs.io/en/latest/Compression.html
 Default: off
-Has to be specified if wanted
+Has to be specified if wanted, eg:
 
-	compress=lzo  - fastest
+	compress=lzo
 
 ### space_cache
 
@@ -29,16 +30,15 @@ space_cache=v2 good for large (tb range) disks
 
 ### default mount options for auto-mounted disks
 
-https://www.reddit.com/r/linux/comments/imgler/btrfs_relatime_vs_noatime_huge_performance/
-
-> a much better solution is to create a /etc/udisks2/mount_options.conf file that defines the default mount options for externally mounted drives that are "auto mounted" using udisks2
+Create `/etc/udisks2/mount_options.conf` that defines the default mount options for externally mounted drives that are "auto mounted" using udisks2
 
 Example:
 ```conf
 [defaults]
-btrfs_defaults=noatime,space_cache=v2,compress=lzo
+btrfs_defaults=noatime,autodefrag,space_cache=v2,compress=lzo
 btrfs_allow=noatime,space_cache,compress,compress-force,datacow,nodatacow,datasum,nodatasum,degraded,device,discard,nodiscard,subvol,subvolid
 ```
+
 
 Tools
 -----
@@ -67,10 +67,10 @@ https://digint.ch/btrbk/
 
 ### btrfs-assistant
 
-
 https://gitlab.com/btrfs-assistant/btrfs-assistant
 
 Not in Ubuntu 24.04 LTS/Neon yet.
+Available on fedora, though reports of problems.
 
 
 ### BTRFS Subvolume Manager Service Menu for Dolphin
@@ -169,7 +169,7 @@ Common setup for BTRFS as root
 
 Many distros follow this pattern.
 
-The installer creates two subvolumes on the main btrfs partition:
+The installer creates two (or more) subvolumes on the main btrfs partition:
 
 	ID      gen     top level       path
 	--      ---     ---------       ----
@@ -217,8 +217,6 @@ Useful for showing differences between snapshots and sources:
 	btrfs filesystem du  --summarize [path]
 
 
-
-
 Manual Rollback of `@`
 ----------------------
 
@@ -233,9 +231,7 @@ Then create a brand new snapshot of a known good point in the past, this time ca
 
 	sudo btrfs subvolume snapshot /different-host/guest-btrfs-partition/@-good-snapshot  /different-host/guest-btrfs-partition/@
 
-With luck this will take you back your previous state.
-
-
+With luck this will revert to the previous state.
 
 
 

@@ -23,9 +23,11 @@ loginctl unlock-session 4
 sudo
 ----
 
+Add user to sudo:
+
 	sudo usermod -aG sudo alice
 
-Seems to require reboot (logout/login not enough)
+Requires reboot (logout/login not enough)
 
 
 ISO write with dd

@@ -18,7 +18,7 @@ https://www.youtube.com/watch?v=fWKbZlPI12Y
 
 	ctrl+f1, ctrl+f2 etc to switch desktops
 
-I think it's grouped like this:
+Grouped like this:
 
 	activity 1
 		a1 desktop 1
@@ -71,7 +71,7 @@ When kde taskbar crashes (hopefully won't be needed under 6):
 
 Date format to iso8601
 ----------------------
-Things like dolphin follow the user's locale settings (which are based upon the system [default locale](locale.md) set during install).
+Dolphin follows the user's locale settings (which are based upon the system [default locale](locale.md) set during install).
 
 Most locales don't use iso8601 for their date format so need to specify a time locale that does, such as en_CA (Canadian English) eh. Sorry.
 
