@@ -107,17 +107,6 @@ https://coderwall.com/p/0c-ayq/howto-split-a-git-repository-into-two
 https://www.endpoint.com/blog/2017/08/14/how-to-split-git-repositories-into-two
 
 
-Its now in the Ubuntu repos so can be installed directly with apt/muon etc.
-
-Old example using python:
-
-	python3 ~/.local/lib/python3.8/site-packages/git_filter_repo.py --force --path-rename project/silver-data/:
-
-
-See also:
-	workspace-silver/task/doing/2021/split up silver repo.text
-
-
 
 To only keep a specific directory:
 

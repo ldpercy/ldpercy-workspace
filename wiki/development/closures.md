@@ -15,7 +15,7 @@ https://en.wikipedia.org/wiki/Non-local_variable
 Grumble
 -------
 
-I've never been a fan of closures, they alway seemed weird to me.
+I've never been a fan of closures, they always seemed weird to me.
 Like a sort of secret hidden state that wan't obvious.
 They seem to break the normal understanding of a function, ie something that maps inputs to outputs.
 Closures don't work like that - they're not deterministic.
@@ -29,7 +29,7 @@ In some sort of ideal world (silver haha) I'd name them differently to make the 
 strictly maps inputs to outputs, idempotent, deterministic, no side effects, pure
 
 ###	procedure
-any sort of computation, can be used for anything, can have side effects, might produce different ouput at different times, etc
+any sort of computation, can be used for anything, can have side effects, might produce different output at different times, etc
 
 ### lambda
 Anything without a 'proper' name, could probably be either a function or a procedure, but functions would be preferable I think.  Anonymous procedures would be weird, but might be useful in some circumstances
