@@ -19,3 +19,15 @@ Turtle will get it's own conversion task, but any concerns that cut across the p
 
 
 
+Turtle and year-clock
+---------------------
+
+For year-clock I've hijacked a branch I had going where I'd started the html-common conversion.
+Bit messier for that one because I wanted to change the dir where the submodule was installed, and nearly nuked my checkout.
+Looks alright now though.
+
+I've just done the conversion for turtle which was a bit smoother, requisite updates notwithstanding.
+
+I'll take a little time for testing each - though both *look* fine - and try to merge & release asap to keep the ball rolling here.
+Some bugs I'll be happy to mop up in fix releases if needed.
+
