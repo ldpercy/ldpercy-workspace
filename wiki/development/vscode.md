@@ -23,7 +23,7 @@ Extensions
 * Git History
 * Hex Editor
 * Markdown All in One
-* MAterial Icon Theme
+* Material Icon Theme
 * Numbered Bookmarks
 * Peacock
 * Project Manager

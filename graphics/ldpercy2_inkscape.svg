@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="-32 -32 64 64"
+   width="100%"
+   height="100%"
+   version="1.1"
+   id="svg11"
+   sodipodi:docname="ldpercy2_inkscape.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs11" />
+  <sodipodi:namedview
+     id="namedview11"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="true"
+     inkscape:zoom="16.38"
+     inkscape:cx="32.020757"
+     inkscape:cy="32.020757"
+     inkscape:window-width="2560"
+     inkscape:window-height="1374"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg11">
+    <inkscape:grid
+       id="grid11"
+       units="px"
+       originx="32"
+       originy="32"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14902"
+       empspacing="5"
+       enabled="true"
+       visible="true"
+       dotted="false"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <style
+     id="style1">
+
+		.background {
+			fill: dimgrey;
+		 }
+
+		.hands {
+			fill:salmon;
+			stroke:none;
+		}
+		.green {
+			fill:limegreen;
+			stroke:none;
+		}
+		.silver {
+			fill:silver;
+			stroke:none;
+		}
+		.eyes circle{
+			r:3px;
+			stroke-width:3;
+			fill:black;
+			stroke:whitesmoke;
+		}
+	</style>
+  <rect
+     class="background"
+     x="-32"
+     y="-32"
+     width="64"
+     height="64"
+     id="rect1">
+    <title
+       id="title1">background</title>
+  </rect>
+  <!-- <rect x="-32" y="-32" width="20" height="64" style="fill:black;"/> -->
+  <g
+     id="g12"
+     inkscape:label="blad">
+    <path
+       d="M -32,32 V -25 L -15.105006,-27.520147 -10,32 Z"
+       style="fill:#000000"
+       id="path1"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#a2a2a2;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m -28.581197,-23.575092 14.713065,0.732601 -3.113553,18.925519 -13.858364,-7.020757 -0.06105,-0.06105"
+       id="path14" />
+  </g>
+  <!-- <rect x="-12" y="-32" width="24" height="64" style="fill:darkgreen;"/> -->
+  <g
+     id="g13"
+     inkscape:label="lope">
+    <path
+       d="M -20.13431,31.69475 -8.5219781,-26.338828 6.8144078,-28.81685 17.288157,31.797314 Z"
+       style="fill:#006400"
+       id="path2"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#c2c2c2;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m -7.030525,-24.979243 12.515262,-2.197802 -2.319902,17.765568 -7.020757,0.3663 z"
+       id="path15" />
+  </g>
+  <!-- <rect x="12" y="-32" width="20" height="64" style="fill:black;"/> -->
+  <g
+     id="g14"
+     inkscape:label="bald">
+    <path
+       d="M 9.8925519,-14.410256 31.8779,-12.326007 32,32 H 16 Z"
+       style="fill:#8b4513"
+       id="path3"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+  <g
+     class="hands"
+     id="g9">
+    <path
+       d="M -16.429792,13.924297 16.429792,11.726495 6.2319902,23.206349 -13.680098,23.7558 Z"
+       id="path8"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+  <g
+     class="green"
+     id="g10">
+    <path
+       d="M 3.9072039,-9.040293 21.528694,12.915751 -23.543346,12.30525 Z"
+       id="path9"
+       sodipodi:nodetypes="cccc" />
+  </g>
+  <g
+     class="silver"
+     id="g11">
+    <path
+       d="M -12.520147,24.30525 14.534799,24.793651 15.450549,32 -13.741148,32.06105"
+       id="path10"
+       sodipodi:nodetypes="cccc" />
+  </g>
+  <path
+     style="fill:#e8a259;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+     d="M 14.275946,-6.420024 27.64591,-9.106227 27.340659,5.789988 15.008547,1.821734 Z"
+     id="path16" />
+</svg>
