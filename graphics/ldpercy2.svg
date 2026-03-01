@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 -32 64 64" width="100%" height="100%">
+
+	<style
+	 id="style1">
+		path { fill-opacity: 0.8; }
+		.background {
+			fill: dimgrey;
+		 }
+
+		.hands {
+			fill:salmon;
+			stroke:none;
+		}
+		.green {
+			fill:limegreen;
+			stroke:none;
+		}
+		.silver {
+			fill:silver;
+			stroke:none;
+		}
+		.eyes circle{
+			r:3px;
+			stroke-width:3;
+			fill:black;
+			stroke:whitesmoke;
+		}
+		.blad {
+			.body { fill:black; }
+			.face { fill:#bcb; }
+		}
+		.ldpe {
+			.body { fill:darkgreen }
+			.face { fill:#dfe; }
+		}
+		.bald {
+			.body { fill:#841 }
+			.face { fill:#eb5; }
+		}
+	</style>
+	<rect class="background" x="-32" y="-32" width="64" height="64"/>
+
+	<g class="blad">
+		<path class="body" d="M -32,32 V -25 L -15.105006,-27.520147 -10,32 Z" />
+		<path class="face" d="m -28.581197,-23.575092 14.713065,0.732601 -3.113553,18.925519 -13.858364,-7.020757 -0.06105,-0.06105 z" />
+	</g>
+
+	<g class="ldpe">
+		<path class="body" d="M -20.13431,31.69475 -8.5219781,-26.338828 6.8144078,-28.81685 17.288157,31.797314 Z"	/>
+		<path class="face" d="m -7.030525,-24.979243 12.515262,-2.197802 -2.319902,17.765568 -7.020757,0.3663 z"/>
+	</g>
+
+	<g class="bald">
+		<path class="body" d="M 9.8925519,-14.410256 31.8779,-12.326007 32,32 H 16 Z"/>
+		<path class="face" d="M 14.275946,-6.420024 27.64591,-9.106227 27.340659,5.789988 15.008547,1.821734 Z" />
+	</g>
+
+	<g class="hands">
+		<path d="M -16.429792,13.924297 16.429792,11.726495 6.2319902,23.206349 -13.680098,23.7558 Z"/>
+	</g>
+
+	<g class="green">
+		<path d="M 3.9072039,-9.040293 21.528694,12.915751 -23.543346,12.30525 Z"/>
+	</g>
+	<g class="silver">
+		<path d="M -12.520147,24.30525 14.534799,24.793651 15.450549,32 -13.741148,32.06105"/>
+	</g>
+
+</svg>
