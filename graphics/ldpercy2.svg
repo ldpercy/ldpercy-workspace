@@ -3,32 +3,33 @@
 
 	<style>
 		.background {
-			fill: dimgrey;
+			fill: #555;
 		}
 		path {
 			fill-opacity: 0.8;
 			stroke:none;
 		}
 		.hands {
-			fill:salmon;
+			fill:darksalmon;
 		}
 		.green {
 			fill:limegreen;
+			fill-opacity: 1;
 		}
 		.silver {
 			fill:silver;
 		}
 		.blad {
 			.body { fill:black; }
-			.face { fill:#bcb; }
+			.face { fill:#9a9; }
 		}
 		.ldpe {
 			.body { fill:darkgreen }
-			.face { fill:#dfe; }
+			.face { fill:#ab9; }
 		}
 		.bald {
 			.body { fill:#841 }
-			.face { fill:#eb5; }
+			.face { fill:#ec5; }
 		}
 	</style>
 	<rect class="background" x="-32" y="-32" width="64" height="64"/>
@@ -40,23 +41,16 @@
 
 	<g class="ldpe">
 		<path class="body" d="M -20,31 -8,-26 6,-28 17,31 Z"	/>
-		<path class="face" d="m -7,-24 12,-2 -2,17 -7,0 z"/>
+		<path class="face" d="M -9,-24 7,-26 5,-7 -7,-8 z"/>
 	</g>
 
 	<g class="bald">
-		<path class="body" d="M 9,-14 32,-12 32,32 H 16 Z"/>
+		<path class="body" d="M 10,-14 32,-12 32,32 H 16 Z"/>
 		<path class="face" d="M 14,-6 27,-9 27,5 15,1 Z" />
 	</g>
 
-	<g class="hands">
-		<path d="M -16,13 16,11 6,23 -13,23 Z"/>
-	</g>
-
-	<g class="green">
-		<path d="M 3,-9 21,12 -23,12 Z"/>
-	</g>
-	<g class="silver">
-		<path d="M -12,24 14,24 15,32 -13,32 "/>
-	</g>
+	<path class="hands" d="M -15,17 16,14 6,23 -12,23 Z"/>
+	<path class="green" d="M 3,-14 23,15 -25,16Z"/>
+	<path class="silver" d="M -11,24 14,24 15,32 -12,32 "/>
 
 </svg>
