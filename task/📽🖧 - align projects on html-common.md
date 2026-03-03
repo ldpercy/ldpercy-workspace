@@ -31,3 +31,12 @@ I've just done the conversion for turtle which was a bit smoother, requisite upd
 I'll take a little time for testing each - though both *look* fine - and try to merge & release asap to keep the ball rolling here.
 Some bugs I'll be happy to mop up in fix releases if needed.
 
+
+### Done
+
+
+
+* [turtle v0.12 - bring in html-common](<../../turtle/task/v0/0.12 - bring in html-common.md>)
+* [year-clock v2.1 - bring in html-common](<../../year-clock/task/v2/2.1 - bring in html-common.md>)
+
+worm-farm: **pending**
