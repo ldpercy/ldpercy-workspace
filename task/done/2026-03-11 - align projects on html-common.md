@@ -4,7 +4,8 @@ Align projects on html-common
 Coordinate getting projects onto the html-common submodule.
 
 ```
-2026-02-27		New task	📽🖧
+2026-02-27		📽🖧	New task
+2026-03-11				complete
 ```
 
 I've finally released v0.1 of html-common; current usage:
@@ -34,9 +35,22 @@ Some bugs I'll be happy to mop up in fix releases if needed.
 
 ### Done
 
-
-
 * [turtle v0.12 - bring in html-common](<../../turtle/task/v0/0.12 - bring in html-common.md>)
 * [year-clock v2.1 - bring in html-common](<../../year-clock/task/v2/2.1 - bring in html-common.md>)
+* [worm farm v0.2 - sync to first html-common release](<../../worm-farm/task/v0/0.2 - sync to first html-common release.md>)
 
-worm-farm: **pending**
+
+
+Wrapup
+------
+
+Finished. The three main projects are now all sync'd to the first release of html-common.
+
+From here on I'll upgrade the projects as needed and as new work filters up into the common module.
+
+I've opened a branch on html-common for v0.1 maintenance, but barely anything in it yet - I'll leave it there if anything becomes pressing.
+
+Other than that the next jobs in html-common will be working on axis inversion for planar space, testing improvements, and typing improvements for html elements.
+
+
+
