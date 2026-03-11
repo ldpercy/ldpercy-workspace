@@ -17,8 +17,11 @@ Details in [the task folder](./task/).
 
 
 Currently working on:
-* Getting all projects aligned on html-common
+* Axis inversion for PlanarSpace
 * Wiki cleanup
+
+Recently done:
+* All projects aligned on html-common
 
 
 In the pipeline:
