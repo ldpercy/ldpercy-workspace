@@ -13,7 +13,7 @@
 			fill:darksalmon;
 		}
 		.green {
-			fill:limegreen;
+			fill:lime;
 			fill-opacity: 1;
 		}
 		.silver {
