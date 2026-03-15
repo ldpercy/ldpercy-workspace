@@ -24,6 +24,7 @@ Computerphile
 https://www.youtube.com/watch?v=bqtE6Q79PPs
 
 https://en.wikipedia.org/wiki/Finite_field
+
 https://en.wikipedia.org/wiki/Galois_theory
 
 
