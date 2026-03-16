@@ -10,6 +10,8 @@ In progress
 Todo
 ----
 
+* bash language server for vscode - marksman? might need plugin
+* Work out a [dev pattern for working with submodules](<submodule development pattern.md>)
 * Rationalise the ldpercy-portfolio project
 
 
