@@ -8,8 +8,25 @@ Work out a preferred pattern for submodule dev.
 Which branches to track, how to deploy etc.
 
 For example:
-* maintnenance branch naming and tagging
+* maintenance branch naming and tagging
 * semver tagging - eg should I have separate tags for `v1`, `v1.0`, `v1.0.0`?
 * git submodule set-branch - is there an equivalent to follow a tag? Or some other similar technique?
+
+
+branch vs tag
+-------------
+
+They both point to commits, but presumably tags aren't meant to be moved all that much, unlike branch pointers?
+
+So maybe instead of having separate tags for submodules to track, I should just leave different branch pointers and update those.
+Probably how it's *meant* to be done.
+Will try to confirm, then see what it means for the process.
+
+If this works out it the way it's looking and tags are (mostly) fixed then they should be full semver: `v3.2.1`.
+
+Tracking branch pointers could then get truncated names like `v3` or `v3.2`, and move as the version progresses.
+
+I have need for something like this basically _now_ for html-common & turtle, so will try the idea out there.
+
 
 
