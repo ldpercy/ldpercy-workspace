@@ -29,4 +29,30 @@ Tracking branch pointers could then get truncated names like `v3` or `v3.2`, and
 I have need for something like this basically _now_ for html-common & turtle, so will try the idea out there.
 
 
+Branch tracking working
+-----------------------
+
+Well I feel like I've just discovered the sky or something.
+
+* Went ahead and merged the little maintenance branch for `html-common` and set a `v0.1` branch at the merge point.
+* Set turtle to track the new submodule branch:	`branch = v0.1`
+
+And it looks like it's working fine.
+
+So this will be the pattern for the foreseeable future.
+
+
+Pattern so far
+-------------
+
+* Tags are full semver and fixed
+* Use short-name branch pointers to indicate the current state of major & minor revisions, eg `v3` & `v3.2`
+* Track submodule versions via the short branch pointers
+
+Want to go through a few more iterations to get the whole dev cycle in view now.
+
+
+
+
+
 
