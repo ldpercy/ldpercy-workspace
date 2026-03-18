@@ -65,21 +65,6 @@ https://qz.com/1234502/how-to-block-facebook-all-the-urls-you-need-to-block-to-a
 
 
 
-Encryption
-----------
-https://wiki.archlinux.org/title/Dm-crypt/Encrypting_an_entire_system
-
-	https://wiki.archlinux.org/title/Dm-crypt/Encrypting_an_entire_system#LVM_on_LUKS
-	https://wiki.archlinux.org/title/Dm-crypt/Encrypting_an_entire_system#Encrypted_boot_partition_(GRUB)
-	https://wiki.archlinux.org/title/Dm-crypt/Specialties
-
-
-https://asalor.blogspot.com/2011/08/trim-dm-crypt-problems.html
-
-https://www.linux.com/training-tutorials/how-full-encrypt-your-linux-system-lvm-luks/
-
-
-
 Boot
 ----
 https://opensource.com/article/20/10/measured-trusted-boot

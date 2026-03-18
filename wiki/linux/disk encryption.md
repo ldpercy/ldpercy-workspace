@@ -2,12 +2,17 @@ Disk encryption
 ===============
 
 
-
 https://wiki.archlinux.org/title/Dm-crypt/Encrypting_an_entire_system
 
+*	https://wiki.archlinux.org/title/Dm-crypt/Encrypting_an_entire_system#LVM_on_LUKS
+*	https://wiki.archlinux.org/title/Dm-crypt/Encrypting_an_entire_system#Encrypted_boot_partition_(GRUB)
+*	https://wiki.archlinux.org/title/Dm-crypt/Specialties
 
-https://wiki.archlinux.org/title/Dm-crypt/Encrypting_an_entire_system#Encrypted_boot_partition_(GRUB)
-https://wiki.archlinux.org/title/Dm-crypt/Specialties
+
+https://www.linux.com/training-tutorials/how-full-encrypt-your-linux-system-lvm-luks/
+
+
+
 
 
 
