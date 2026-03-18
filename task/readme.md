@@ -12,9 +12,11 @@ Todo
 
 * bash language server for vscode - marksman? might need plugin
   * trialing `mads-hartmann.bash-ide-vscode`
-* Work out a [dev pattern for working with submodules](<submodule development pattern.md>)
 * Rationalise the ldpercy-portfolio project
 
+### In progress
+
+* Working on [dev pattern for working with submodules](<submodule development pattern.md>)
 
 
 ### General wiki cleanup
