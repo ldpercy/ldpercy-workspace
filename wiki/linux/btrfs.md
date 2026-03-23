@@ -1,6 +1,8 @@
 BTRFS
 =====
 
+
+
 Mount Options
 -------------
 
@@ -164,6 +166,17 @@ Child subvolumes have the root subvolume as their parent - `sudo btrfs subvolume
 ```
 
 
+
+Send-receive
+------------
+
+Todo: fill this in
+
+	btrfs send /btrfs-source-volume/btrfs-subvolume | btrfs receive /btrfs-destination-volume/some-folder/
+
+
+
+
 Common setup for BTRFS as root
 ------------------------------
 
@@ -238,25 +251,25 @@ With luck this will revert to the previous state.
 References
 ----------
 
-https://btrfs.wiki.kernel.org/index.php/Main_Page#External_Btrfs_Documentation_.2F_Guides
+### btrfs.wiki.kernel.org
 
-https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs(5)#MOUNT_OPTIONS
-https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-subvolume
+* https://btrfs.wiki.kernel.org/index.php/Main_Page#External_Btrfs_Documentation_.2F_Guides
+* https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs(5)#MOUNT_OPTIONS
+* https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-subvolume
+* https://btrfs.wiki.kernel.org/index.php/FAQ#Can_I_have_nodatacow_.28or_chattr_.2BC.29_but_still_have_checksumming.3F
+* https://btrfs.wiki.kernel.org/index.php/UseCases#Snapshots_and_subvolumes
+* https://btrfs.wiki.kernel.org/index.php/Incremental_Backup
+* https://btrfs.wiki.kernel.org/index.php/SysadminGuide#When_To_Make_Subvolumes
+* https://btrfs.wiki.kernel.org/index.php/Project_ideas#Cleanup_projects
 
-
-https://btrfs.wiki.kernel.org/index.php/FAQ#Can_I_have_nodatacow_.28or_chattr_.2BC.29_but_still_have_checksumming.3F
-
-https://btrfs.wiki.kernel.org/index.php/UseCases#Snapshots_and_subvolumes
-
-https://btrfs.wiki.kernel.org/index.php/Incremental_Backup
-
-https://btrfs.wiki.kernel.org/index.php/SysadminGuide#When_To_Make_Subvolumes
-https://btrfs.wiki.kernel.org/index.php/Project_ideas#Cleanup_projects
 
 
 https://wiki.archlinux.org/index.php/Btrfs
+
 https://help.ubuntu.com/community/btrfs
+
 https://www.reddit.com/r/btrfs/
+
 
 https://facebookmicrosites.github.io/btrfs/docs/btrfs-facebook.html
 
