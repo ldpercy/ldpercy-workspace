@@ -10,6 +10,7 @@ In progress
 Todo
 ----
 
+* Easter eggs
 * Should polygon be split out into its own project? Or included into a screensaver of some sort?
 * bash language server for vscode - marksman? might need plugin
   * trialing `mads-hartmann.bash-ide-vscode`
