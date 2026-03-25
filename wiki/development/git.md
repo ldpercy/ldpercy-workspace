@@ -89,9 +89,13 @@ Modifying commits
 
 	git amend -m "Updated commit message"
 
-If the commit was already pushed, do a force push as well:
+The amended commit retains its original time, but **does get a new hash** (*afaict).
 
-	git push --force
+
+If the commit was already pushed to a remote, do a force push as well (if your remote allows it):
+
+	git push $remotename --force
+
 
 
 ### Undo a commit & push
