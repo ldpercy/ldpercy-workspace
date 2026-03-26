@@ -16,6 +16,7 @@ Tasks
 
 Currently working on:
 
+* `screeensaver` - initial release
 * `html-experiment` - [css animations](../html-experiment/css/animation.html) & [file api](../html-experiment/file); updates for [polygon](../html-experiment/app/polygon)
 * `year-clock` - [small updates](<../year-clock/task/2.🐁Δ - small updates.md#resume-task-as-small-updates>)
 * `html-common` - [0.1 maintenance](<../html-common/[task]/v0/0.1 - Initial release.md>) & [axis inversion for PlanarSpace](<../html-common/[task]/0.🪓⮁ - axis inversion.md>)
@@ -25,7 +26,8 @@ Currently working on:
 
 
 Recently done:
-* `turtle` - [v0.12.2](<../turtle/task/v0/0.12 - bring in html-common.md#maintenance>) - localStorage namespacing and colour scheme updates
+* `screeensaver` - [new project](<../screensaver/>) [spawned from polygon](<task/done/2026-03-26 - screensaver project.md>)
+* `turtle` - [v0.12.3](<../turtle/task/v0/0.12 - bring in html-common.md#maintenance>) - Small maintenance update
 * [All projects aligned on html-common](<task/done/2026-03-11 - align projects on html-common.md>)
 
 
