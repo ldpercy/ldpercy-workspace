@@ -17,3 +17,10 @@ Initial work on polygon
 
 It's small and relatively unimportant so I'll use it as the guinea pig.
 
+
+Y-inversion
+-----------
+
+I need a quick, not-necessarily-ideal solution for the moment, one that can be revisited later.
+
+As y-inversion is the main thing i need I think I'll try just adding a small conversion/outputter method to Point - see how it goes.

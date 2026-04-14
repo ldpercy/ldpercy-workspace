@@ -10,6 +10,7 @@ In progress
 Todo
 ----
 
+* Convert polygon code use planar-space and move it to html-common
 * Rationalise the ldpercy-portfolio project
 
 
