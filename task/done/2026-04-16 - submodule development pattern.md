@@ -40,19 +40,24 @@ Well I feel like I've just discovered the sky or something.
 And it looks like it's working fine.
 
 So this will be the pattern for the foreseeable future.
-
-
-Pattern so far
--------------
-
-* Tags are full semver and fixed
-* Use short-name branch pointers to indicate the current state of major & minor revisions, eg `v3` & `v3.2`
-* Track submodule versions via the short branch pointers
-
 Want to go through a few more iterations to get the whole dev cycle in view now.
 
 
 
+Wrapup
+------
 
+Pretty happy with this as a pattern, and have run through it few times now.
+
+* Tags are full semver `v1.2.3` and fixed in place
+* Use short-version branch pointers to indicate the current position of major & minor revisions, eg `v3` & `v3.2`
+* Track submodule versions via the short branch pointers, eg `branch = v0.2`
+
+Getting the branch pointers for submodule versioning in place is still a bit fiddly, will see if that can smoothed out at all.
+
+I've put together a deployment process doc to help keep things in order:
+[deployment process](<../wiki/deployment process.md>)
+
+*Done.*
 
 
