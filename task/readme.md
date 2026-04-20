@@ -26,7 +26,7 @@ It's a bit of a mixed mess right now, some actual wiki style content, some docs 
 
 Done
 ----
-* [submodule dev pattern](<done/2026-04-16 - submodule development pattern.md>) & [deployment process](<../wiki/deployment process.md>)
+* [submodule dev pattern](<done/2026-04-16 - submodule development pattern.md>) & [deployment process](<../ldpercy/deployment process.md>)
 * The current version of polygon has been [split out into a new a screensaver project](<done/2026-03-26 - screensaver project.md>)
 * Found a workaround for the svg 5px problem - use `display:block`
 * Gave Terry some bunny ears for Easter

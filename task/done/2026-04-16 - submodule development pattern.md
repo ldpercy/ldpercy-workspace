@@ -56,7 +56,7 @@ Pretty happy with this as a pattern, and have run through it few times now.
 Getting the branch pointers for submodule versioning in place is still a bit fiddly, will see if that can smoothed out at all.
 
 I've put together a deployment process doc to help keep things in order:
-[deployment process](<../wiki/deployment process.md>)
+[deployment process](<../ldpercy/deployment process.md>)
 
 *Done.*
 
