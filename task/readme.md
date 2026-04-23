@@ -2,9 +2,7 @@ Task
 ====
 
 
-In progress
------------
-* [🪓⮁ - axis inversion for planar-space](<🪓⮁ - axis inversion for planar-space.md>)
+
 
 
 Todo
@@ -12,6 +10,14 @@ Todo
 
 * Convert polygon code use planar-space and move it to html-common
 * Rationalise the ldpercy-portfolio project
+* General wiki cleanup - It's a bit of a mixed mess right now, some actual wiki style content, some docs that are just link dumps
+
+
+
+### Feature Parity
+* `yearclock` colour schemes - maybe use something similar to what I'm using for screensaver
+* save/download - get these consistent, see what can be common-ised
+
 
 
 ### In progress
@@ -19,9 +25,10 @@ Todo
 * trialing `mads-hartmann.bash-ide-vscode` as bash language support for vscode
 
 
-### General wiki cleanup
 
-It's a bit of a mixed mess right now, some actual wiki style content, some docs that are just link dumps.
+In progress
+-----------
+* [🪓⮁ - axis inversion for planar-space](<🪓⮁ - axis inversion for planar-space.md>)
 
 
 Done
@@ -35,5 +42,9 @@ Done
 * Merge wiki-scitech content into this repo & archive it
 * Bring this repo online
 * Merge experiment-svg into experiment-html
+
+
+
+
 
 
