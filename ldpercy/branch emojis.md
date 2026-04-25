@@ -8,11 +8,13 @@ Branch emojis
 Point
 
 	⌖⊕⊗⊙◬⏧
+	📌📍🖈
 
 Graph/chart
 
-	⏦📉📊📈💹
-
+	⏦🗠
+	📉📊📈💹
+	🗺
 
 Code
 
@@ -23,9 +25,14 @@ Loop
 	⅏➰➿
 
 
+Settings
+	🎛🎚
+
+
 Communication
 
 	📨📩📝📠📞🌐🗣️
+	🖧
 
 
 Interface/joining
