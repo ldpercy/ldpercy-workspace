@@ -24,7 +24,7 @@ Todo
 
 ### In progress
 
-* trialing `mads-hartmann.bash-ide-vscode` as bash language support for vscode
+
 
 
 

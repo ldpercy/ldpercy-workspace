@@ -19,6 +19,8 @@ https://code.visualstudio.com/docs/editor/profiles
 Extensions
 ----------
 
+* https://quick-lint-js.com/	https://github.com/quick-lint/quick-lint-js
+* trialing `mads-hartmann.bash-ide-vscode` as bash language support for vscode
 * Git Graph
 * Git History
 * Hex Editor
