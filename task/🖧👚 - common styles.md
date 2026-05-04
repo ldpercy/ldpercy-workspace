@@ -4,15 +4,19 @@ Common styles
 The main apps share similar layouts, but the styles are copied.
 Add a subset to html-common for reuse.
 
-
 ```
 2026-04-28		🖧👚		new task
 ```
 
-Main candidates for this one:
-* panels & some of the panel form styles
-* info dialogs
-* maybe some colour scheme settings
+### subtasks
+
+* [x] App info dialog style
+* [x] panel group style
+* [x] Chromium colour scheme switching glitch (sorted now)
+* [ ] figure out custom accent colour for Turtle (& maybe yearclock)
+* [ ] figure out ui-panel inputs
+
+
 
 
 Preamble
@@ -39,5 +43,18 @@ Info dialog
 This one should be pretty easy to start with as it really is just copy-pasted between the apps.
 There are a couple of tweaks in screensaver I think, but should be simple to commonise.
 
+Done, it's now common across the apps, also commonised the panel-group styles.
+
+
+The ui panel
+------------
+I've been spending a bit more time on this as it's a bit more detailed.
+Currently have it at a fairly acceptable state across the apps, but now starting to think about how customisations should flow into it.
+
+More general discussion: [style flow](<🎨🢡🖽 - style flow.md>)
+
+In particular the screensaver style panel is getting too big so have been trying tweaking some of it's settings, but ultimately it will need to be broken down or reimagined somehow.
+
+I'm half tempted to do a release here, but there are still a lot of bugs and things that need to be squished in turtle and yearclock.
 
 

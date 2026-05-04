@@ -6,6 +6,7 @@ Task
 Todo
 ----
 
+
 * Long running task branches are a problem - think about ways to merge but isolate code, eg with feature flags
 * I'm using a bunch of pretty-similar styles across turtle/screensaver/yearclock et al - should centralise things like schemes & panels into some core stylesheets in html-common.
 * I seem to be losing some task update notes in the merge process - I can see it in the latest html-common merge. Not sure if it's from a one step 'done' that overwrites something? It's v.probably user-error, will watch.
@@ -13,6 +14,15 @@ Todo
 * Rationalise the ldpercy-portfolio project
 * General wiki cleanup - It's a bit of a mixed mess right now, some actual wiki style content, some docs that are just link dumps
 
+
+### Chromium colour scheme bug
+There is a colour scheme glitch in chromium when switching from light to dark and back again - some of the ui elements stay light. I was only seeing it in screensaver, but also now in turtle. I suspect it's to do with the transition; some property & the way I've coded it. Need to find.
+
+It was this transition that I'd thrown in hoping it would work:
+```
+	transition: color-scheme var(--transition-time-page) linear allow-discrete;
+```
+Take it out for now, do some experimenting to see if it can be made to work.
 
 
 ### Feature Parity
