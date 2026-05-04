@@ -1,7 +1,7 @@
-Colour flow
-===========
+Style flow
+==========
 
-Formalise the colour flow from project & scheme to elements
+Formalise the style flow from project & scheme to elements
 
 ```
 2026-05-03		🎨🢡🖽		new task
