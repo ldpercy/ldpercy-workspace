@@ -16,7 +16,14 @@ So need to work out exactly what the 'base' colours are, and they they converted
 
 This has been growing organically for a while, but need to start treating it as a singular task and work it out properly.
 
-Ideas
------
+
+
+Application settings
+--------------------
+
+* project colour - defines things like accents
+* custom accent colour - when not wanting to use the project colour (eg turtle)
+* colour scheme setting - light, dark, other
+* scheme colours - can be derived from the project colour, or customised
 
 
