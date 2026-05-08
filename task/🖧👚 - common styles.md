@@ -16,7 +16,12 @@ Add a subset to html-common for reuse.
 * [ ] figure out custom accent colour for Turtle (& maybe yearclock)
 * [ ] figure out ui-panel inputs
 
-
+### project status
+* [x] `thought cloud` done, only tweaking at this point, can go live
+* [x] `worm farm`  done, can go live
+* [x] `screensaver` mainly done, some of the colour flow could be improved, but could go live
+* [x] `turtle` mostly done, there are few little tweaks I could do, but probably releasable
+* [ ] `yearclock` in limbo
 
 
 Preamble
@@ -57,4 +62,12 @@ In particular the screensaver style panel is getting too big so have been trying
 
 I'm half tempted to do a release here, but there are still a lot of bugs and things that need to be squished in turtle and yearclock.
 
+
+Year clock
+----------
+
+At this point I'm pretty close to being able to do a new release for html-common, and the apps, *except* for yearclock.
+
+There a bunch of stuff that will probably need to be added/changed to modernise yearclock's scheme handling, but I'm going to shortcut it here so I can do a coordinated release.
+See [the task in yearlcock](<../../year-clock/[task]/🖧👚 - common styles.md>) for more info.
 
