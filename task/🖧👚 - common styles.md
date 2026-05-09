@@ -6,6 +6,7 @@ Add a subset to html-common for reuse.
 
 ```
 2026-04-28		🖧👚		new task
+2026-05-09					wrapping up
 ```
 
 ### subtasks
@@ -13,15 +14,24 @@ Add a subset to html-common for reuse.
 * [x] App info dialog style
 * [x] panel group style
 * [x] Chromium colour scheme switching glitch (sorted now)
-* [ ] figure out custom accent colour for Turtle (& maybe yearclock)
-* [ ] figure out ui-panel inputs
+* [x] figure out custom accent colour for Turtle (& maybe yearclock)
+* [x] figure out ui-panel inputs
 
 ### project status
 * [x] `thought cloud` done, only tweaking at this point, can go live
 * [x] `worm farm`  done, can go live
 * [x] `screensaver` mainly done, some of the colour flow could be improved, but could go live
 * [x] `turtle` mostly done, there are few little tweaks I could do, but probably releasable
-* [ ] `yearclock` in limbo
+* [x] `yearclock` split and shortcut the task for release
+
+### deployments
+
+* [x] `html-common`
+* [ ] `thought cloud`
+* [x] `worm farm`  done, can go live
+* [ ] `screensaver` mainly done, some of the colour flow could be improved, but could go live
+* [ ] `turtle` mostly done, there are few little tweaks I could do, but probably releasable
+* [x] `yearclock` split and shortcut the task for release
 
 
 Preamble
@@ -69,5 +79,21 @@ Year clock
 At this point I'm pretty close to being able to do a new release for html-common, and the apps, *except* for yearclock.
 
 There a bunch of stuff that will probably need to be added/changed to modernise yearclock's scheme handling, but I'm going to shortcut it here so I can do a coordinated release.
-See [the task in yearlcock](<../../year-clock/[task]/🖧👚 - common styles.md>) for more info.
+See [the task in yearlcock](<../../year-clock/[task]/🖧👚 - common styles.md>) for more info, but will basically split off the extra jobs, and release an mvp so I can wrap this up.
+
+
+Wrapup
+------
+
+This is mostly done so going to start wrapping & releasing.
+
+
+
+### Carryovers
+* `yearclock` proper colour schemes
+* `thoughtcloud` panel colour tweaks
+* `turtle` a few minor spacing adjustments
+* `screensaver`
+*
+
 

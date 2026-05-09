@@ -8,7 +8,6 @@ Todo
 
 
 * Long running task branches are a problem - think about ways to merge but isolate code, eg with feature flags
-* I'm using a bunch of pretty-similar styles across turtle/screensaver/yearclock et al - should centralise things like schemes & panels into some core stylesheets in html-common.
 * I seem to be losing some task update notes in the merge process - I can see it in the latest html-common merge. Not sure if it's from a one step 'done' that overwrites something? It's v.probably user-error, will watch.
 * Convert polygon code use planar-space and move it to html-common
 * Rationalise the ldpercy-portfolio project
@@ -26,13 +25,10 @@ Take it out for now, do some experimenting to see if it can be made to work.
 
 
 ### Feature Parity
-* panel styles - move to html-common
+
 * `yearclock` colour schemes - maybe use something similar to what I'm using for screensaver
 * save/download - get these consistent, see what can be common-ised
 
-
-
-### In progress
 
 
 
@@ -40,6 +36,7 @@ Take it out for now, do some experimenting to see if it can be made to work.
 
 In progress
 -----------
+* [🖧👚 - common styles](<🖧👚 - common styles.md>)
 * [🪓⮁ - axis inversion for planar-space](<🪓⮁ - axis inversion for planar-space.md>)
 
 
