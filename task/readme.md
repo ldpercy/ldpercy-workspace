@@ -6,7 +6,7 @@ Task
 Todo
 ----
 
-
+* Licensing...
 * Long running task branches are a problem - think about ways to merge but isolate code, eg with feature flags
 * I seem to be losing some task update notes in the merge process - I can see it in the latest html-common merge. Not sure if it's from a one step 'done' that overwrites something? It's v.probably user-error, will watch.
 * Convert polygon code use planar-space and move it to html-common
@@ -36,7 +36,9 @@ Take it out for now, do some experimenting to see if it can be made to work.
 
 In progress
 -----------
+
 * [🖧👚 - common styles](<🖧👚 - common styles.md>)
+* linting with https://quick-lint-js.com/	https://github.com/quick-lint/quick-lint-js
 * [🪓⮁ - axis inversion for planar-space](<🪓⮁ - axis inversion for planar-space.md>)
 
 
