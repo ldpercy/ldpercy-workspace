@@ -6,6 +6,7 @@ Task
 Todo
 ----
 
+* Really simple text/md editor proj ?
 * Licensing...
 * Long running task branches are a problem - think about ways to merge but isolate code, eg with feature flags
 * I seem to be losing some task update notes in the merge process - I can see it in the latest html-common merge. Not sure if it's from a one step 'done' that overwrites something? It's v.probably user-error, will watch.
