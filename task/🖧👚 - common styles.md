@@ -30,7 +30,7 @@ Add a subset to html-common for reuse.
 * [ ] `thought cloud`
 * [x] `worm farm`  done, can go live
 * [ ] `screensaver` mainly done, some of the colour flow could be improved, but could go live
-* [ ] `turtle` mostly done, there are few little tweaks I could do, but probably releasable
+* [x] `turtle` mostly done, there are few little tweaks I could do, but probably releasable
 * [x] `yearclock` split and shortcut the task for release
 
 

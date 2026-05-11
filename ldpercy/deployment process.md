@@ -24,6 +24,7 @@ On the task branch:
 * [ ] update version string in codebase
 * [ ] update task header
 * [ ] move task doc to 'done' folder with new version string
+* [ ] update task and main readmes
 
 
 ### 3 - Github pull request
