@@ -16,9 +16,9 @@ Tasks
 
 Currently working on:
 
-* `medit`			- use file api instead of anchor download
-* `html-common`		- continued work on common styles
-* `year-clock`		- Get proper light-dark scheme control going
+* `medit`			- [use file api instead of anchor download](<../medit/[task]/🤖🖫⑴ - android overwrite.md>)
+* `html-common`		- [continued work on common styles](<../html-common/[task]/v0/0.3 - common styles.md>)
+* `year-clock`		- [Get proper light-dark scheme control going](<../year-clock/[task]/2.💡🕶 - proper light-dark schemes.md>)
 * `screensaver`		- synchronising animations
 * `html-common`		- Planar Space: Improve interfaces & axis inversion; centralise app style
 * `html-experiment`	- [file api](../html-experiment/file)

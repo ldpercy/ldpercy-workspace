@@ -6,8 +6,9 @@ Task
 Todo
 ----
 
-* btrfs/btrbk/sata/disk throttling - where are the bottlenecks coming from?
-* Really simple text/md editor proj ?
+* btrfs subvolume moving - sometimes doesn't work???
+* btrfs/btrbk/sata - transfer throttle during send/receive - where are the bottlenecks coming from?
+* [mvc pattern](<👠🎑🎛 - mvc pattern.md>)
 * Licensing...
 * Long running task branches are a problem - think about ways to merge but isolate code, eg with feature flags
 * I seem to be losing some task update notes in the merge process - I can see it in the latest html-common merge. Not sure if it's from a one step 'done' that overwrites something? It's v.probably user-error, will watch.
@@ -39,7 +40,7 @@ Take it out for now, do some experimenting to see if it can be made to work.
 In progress
 -----------
 
-
+* Simple text/md editor -> Medit
 * linting with https://quick-lint-js.com/	https://github.com/quick-lint/quick-lint-js
 * [🪓⮁ - axis inversion for planar-space](<🪓⮁ - axis inversion for planar-space.md>)
 
