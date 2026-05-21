@@ -27,9 +27,9 @@ Add a subset to html-common for reuse.
 ### deployments
 
 * [x] `html-common`
-* [ ] `thought cloud`
+* [x] `thought cloud`
 * [x] `worm farm`  done, can go live
-* [ ] `screensaver` mainly done, some of the colour flow could be improved, but could go live
+* [x] `screensaver` mainly done, some of the colour flow could be improved, but could go live
 * [x] `turtle` mostly done, there are few little tweaks I could do, but probably releasable
 * [x] `yearclock` split and shortcut the task for release
 
@@ -82,18 +82,27 @@ There a bunch of stuff that will probably need to be added/changed to modernise 
 See [the task in yearlcock](<../../year-clock/[task]/🖧👚 - common styles.md>) for more info, but will basically split off the extra jobs, and release an mvp so I can wrap this up.
 
 
+Releasing
+---------
+
+Main coding is mostly done so going to start wrapping & releasing.
+
+
 Wrapup
 ------
 
-This is mostly done so going to start wrapping & releasing.
+All the apps have been moved over to the starting version of the common styles and deployed.
+
+* Commonn style for the info dialog
+* Common panel styles
+* Fixed chromium colour scheme switching glitch
 
 
 
-### Carryovers
+
+### Carryover work
 * `yearclock` proper colour schemes
 * `thoughtcloud` panel colour tweaks
 * `turtle` a few minor spacing adjustments
 * `screensaver`
 *
-
-

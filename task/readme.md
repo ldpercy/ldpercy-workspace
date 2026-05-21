@@ -6,6 +6,7 @@ Task
 Todo
 ----
 
+* btrfs/btrbk/sata/disk throttling - where are the bottlenecks coming from?
 * Really simple text/md editor proj ?
 * Licensing...
 * Long running task branches are a problem - think about ways to merge but isolate code, eg with feature flags
@@ -38,13 +39,14 @@ Take it out for now, do some experimenting to see if it can be made to work.
 In progress
 -----------
 
-* [🖧👚 - common styles](<🖧👚 - common styles.md>)
+
 * linting with https://quick-lint-js.com/	https://github.com/quick-lint/quick-lint-js
 * [🪓⮁ - axis inversion for planar-space](<🪓⮁ - axis inversion for planar-space.md>)
 
 
 Done
 ----
+* [common styles](<done/2026-05-21 - common styles.md>)
 * [submodule dev pattern](<done/2026-04-16 - submodule development pattern.md>) & [deployment process](<../ldpercy/deployment process.md>)
 * The current version of polygon has been [split out into a new a screensaver project](<done/2026-03-26 - screensaver project.md>)
 * Found a workaround for the svg 5px problem - use `display:block`
