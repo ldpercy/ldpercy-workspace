@@ -27,3 +27,19 @@ Application settings
 * scheme colours - can be derived from the project colour, or customised
 
 
+### Project colour
+
+This is a pretty general 'vibe of the project' colour.
+I always use this as the vscode peacock (johnpapa.vscode-peacock) colour to distinguish my editors.
+
+Sometimes the colours are chosen simply because they vaguely alliterate with the project name (eg medit -> mediumturqoise). It's really not profound.
+
+In the absence of other factors this colour usually gets used for things like accents and shading (eg thought-cloud, medit, html-experiment, year-clock etc).
+Turtle currently has custom accents, and screensaver's accents are dynamic.
+
+
+
+
+
+
+
