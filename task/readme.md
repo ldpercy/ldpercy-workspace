@@ -6,6 +6,8 @@ Task
 Todo
 ----
 
+* xml language server for kate, eg lemminx
+* Keep working through [style flow](<🎨🢡🖽 - style flow.md>)
 * btrfs subvolume moving - sometimes doesn't work???
 * btrfs/btrbk/sata - transfer throttle during send/receive - where are the bottlenecks coming from?
 * [mvc pattern](<👠🎑🎛 - mvc pattern.md>)

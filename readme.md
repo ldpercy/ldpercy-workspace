@@ -29,7 +29,7 @@ Currently working on:
 
 Recently done:
 
-* `medit`			- 0.1.0 - initial release
+* `medit`			- [v0.2.0](<../medit/[task]/v0/0.2.0 - meta theme-color .md>) - meta theme-color
 * `turtle`			- [v0.14.0](<../turtle/[task]/v0/0.14.0 - common styles.md>) - common styles
 * `year-clock`		- [v2.3.0](<../year-clock/[task]/v2/2.3 - common styles.md>) - common styles
 * `screeensaver`	- [v0.4.0](<../screensaver/[task]/v0/v0.4 - common styles.md>) - common styles
