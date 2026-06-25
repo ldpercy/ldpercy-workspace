@@ -6,6 +6,7 @@ Task
 Todo
 ----
 
+* Still looking for a nice, graphical way to compare branches in VSCode (/other)
 * xml language server for kate, eg lemminx
 * Keep working through [style flow](<🎨🢡🖽 - style flow.md>)
 * btrfs subvolume moving - sometimes doesn't work???
