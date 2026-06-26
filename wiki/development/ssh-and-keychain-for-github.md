@@ -10,11 +10,13 @@ We'll also install and setup keychain to automatically make these available on a
 
 N.B. Although this is intended for Github, the process for Gitlab is virtually identical.
 
-1. [Create the authentication and signing ssh keys](#create-authentication-and-signing-ssh-keys)
-2. [Create ssh config file for authentication with github](#create-ssh-config-file-for-authentication-with-githubcom)
-3. [Set local git to use the signing key](#set-local-git-to-use-signing-key)
-4. [Setup keychain to load the ssh keys](#keychain-install-and-run)
-5. [Add keys to github](#add-keys-to-github)
+- [ssh \& keychain for Github](#ssh--keychain-for-github)
+	- [Create authentication and signing ssh keys](#create-authentication-and-signing-ssh-keys)
+	- [Create ssh config file for authentication with github.com](#create-ssh-config-file-for-authentication-with-githubcom)
+	- [Set local git to use signing key](#set-local-git-to-use-signing-key)
+	- [Keychain install and run](#keychain-install-and-run)
+		- [NB for Wayland sessions use this instead:](#nb-for-wayland-sessions-use-this-instead)
+	- [Add keys to github](#add-keys-to-github)
 
 
 Create authentication and signing ssh keys
@@ -68,6 +70,11 @@ git config --global commit.gpgsign true
 
 Keychain install and run
 ------------------------
+
+> [!WARNING]
+> Keychain is in active development again; the new python v3 will be out shortly so this will need updating.
+>
+> The following is for keychain 2.x
 
 Main documentation: https://www.funtoo.org/Funtoo:Keychain
 
