@@ -41,6 +41,14 @@ https://userbase.kde.org/Plasma_application_launchers
 Is being removed from repositories, have to use Synaptic (gtk) instead.
 
 
+### Flatpak
+
+There is a flatpak admin module for the System Settings:
+
+	kde-config-flatpak
+
+
+
 ### Note taking
 
 https://apps.kde.org/en-gb/marknote/
