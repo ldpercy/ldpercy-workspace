@@ -32,3 +32,5 @@ Extensions
 * SVG
 * Swap Diff
 * Typos spell checker
+
+
