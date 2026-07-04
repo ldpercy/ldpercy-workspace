@@ -41,19 +41,19 @@ On my filesystem:
 	/usr/bin/ssh-askpass			# exists
 	/usr/libexec/ssh-askpass		# does not exist
 
-From VSCode's bash terminal: 
+From VSCode's bash terminal:
 
-```bash 
+```bash
 $ which ssh-askpass
 which: no ssh-askpass in (/app/bin:/app/bin:/app/bin:/usr/bin:/home/paul/.var/app/com.vscodium.codium/data/node/bin:/home/paul/.var/app/com.vscodium.codium/data/cargo/bin:/home/paul/.var/app/com.vscodium.codium/data/python/bin)
 ```
 
 The internet
 ------------
-There are several suggestions out there, seems like this is a perennial problem. 
+There are several suggestions out there, seems like this is a perennial problem.
 * install ssh-askpass (already installed for me)
 * "git.useIntegratedAskPass": false,
-* 
+*
 
 
 Flatpak vscodium
@@ -63,7 +63,7 @@ Flatpak vscodium
 https://github.com/flathub/com.vscodium.codium/blob/master/README.md#host-shell
 
 
-Original: 
+Original:
 
 ```json
 	"terminal.integrated.profiles.linux": {
@@ -116,3 +116,8 @@ It doesn't know about any existing keychains/sshagents, but it runs keychain cor
             "path": "/app/bin/host-spawn"
         },
 ```
+
+
+Snap?
+-----
+Tried stock vscode snap last night and it seemed 'better' and turns out I'm using the snap on another machine also - look into.
