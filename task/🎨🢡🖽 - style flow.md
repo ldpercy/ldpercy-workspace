@@ -39,6 +39,17 @@ Turtle currently has custom accents, and screensaver's accents are dynamic.
 
 
 
+Project settings and 'active' settings
+--------------------------------------
+
+Finding that I want these distinguished, I think it will clarify the flow in some cases.
+
+Accents for example:
+
+	--project-accent		- the global starting accent colour
+	--accent 				- the active accent colour for the element
+
+A pattern something like that could be adapted for other properties, though could get complicated for some things.
 
 
 
