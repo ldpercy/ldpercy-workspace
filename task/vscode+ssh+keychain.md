@@ -121,3 +121,12 @@ It doesn't know about any existing keychains/sshagents, but it runs keychain cor
 Snap?
 -----
 Tried stock vscode snap last night and it seemed 'better' and turns out I'm using the snap on another machine also - look into.
+
+
+Have replaced the flatpak version of codium with the snap.
+Seems to work better out of the box.
+
+Uses bash by default - i think the flatpak was using zsh, and the shell env seems *properly* shared now.
+
+Will have to wait and see how this will pan out on other distros...
+
