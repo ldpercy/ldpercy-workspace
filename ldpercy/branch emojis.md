@@ -2,40 +2,55 @@ Branch emojis
 =============
 
 
+Places & things
+---------------
 
+### Locations
 
+	📁📂
+	🏠🏡⌂
+	/🙼
 
-Point
-
-	⌖⊕⊗⊙◬⏧
-	📌📍🖈
-
-Graph/chart
+### Graph/chart
 
 	⏦🗠
 	📉📊📈💹
 	🗺
 
-Code
+### Settings
 
-	ƒ
-
-Loop
-
-	⅏➰➿
-
-
-Settings
 	🎛🎚
 
-
-Communication
+### Communication
 
 	📨📩📝📠📞🌐🗣️
 	🖧
 
 
-Interface/joining
+### Point
+
+	⌖⊕⊗⊙◬⏧
+	📌📍🖈
+
+### Experiments
+
+	⚗️🧪🧫🫟
+
+
+Programming & concepts
+----------------------
+
+### Code
+
+	ƒ
+
+### Loop
+
+	⅏➰➿
+
+
+
+### Interface/joining
 
 	🙏🤝🫶🤼
 	⫘⨝⧉
@@ -43,7 +58,7 @@ Interface/joining
 	🖇🧩
 	👯
 
-Type
+### Type
 
 	🅰️🅱️🆎🅾️
 
@@ -69,6 +84,3 @@ Switches, on off
 
 	⏻⏼
 
-Experiments
-
-	⚗️🧪🧫🫟

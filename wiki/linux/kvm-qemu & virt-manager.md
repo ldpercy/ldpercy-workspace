@@ -1,5 +1,3 @@
-
-
 kvm-qemu & virt-manager
 =======================
 
@@ -25,12 +23,36 @@ Add user to libvirt-qemu group:
 	$ sudo adduser $USER libvirt-qemu
 
 
-Disks
------
+Virtual Machine setup
+---------------------
+
+### Disks
 
 Use disk ids rather than ordinary /dev/sdX names:
 
 	/dev/disk/by-id/xxxxxxxxx
+
+
+### i440FX & Q35
+
+General recommendation is to use `Q35`.
+
+
+### Firmware
+
+	BIOS						- oldschool, distros want to use mbr/dos
+	UEFI						- Normally use this
+		OVMF_CODE_4M.fd
+		OVMF_CODE_4M.ms.fd			- i think these two are the same, used for actual secure boot
+		OVMF_CODE_4M.secboot.fd		- as above
+		OVMF.amdsev.fd
+
+
+
+
+
+
+
 
 
 
