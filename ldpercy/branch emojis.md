@@ -23,8 +23,13 @@ Places & things
 
 ### Communication
 
-	📨📩📝📠📞🌐🗣️
-	🖧
+	📝🖻🖹🖺
+	📢📰🗞
+	📕📖📗📘📙📚🕮
+	📨📩
+	📠📞
+	🗣️
+	🌐🖧
 
 
 ### Point
