@@ -16,13 +16,23 @@ rm ~/.config/kfindrc
 
 
 
-rm ~/.local/share/recently-used.xbel
-rm ~/.local/share/user-places.xbel
+
 rm ~/.local/share/RecentDocuments/*
 rm ~/.local/share/kwrite/anonymous.katesession
 rm ~/.local/state/kwritestaterc
 rm ~/.log/vlc.log
-
 ## rm ~/.local/share/okular/docdata/*
 
 
+## gtk settings (not very reliable)
+# configs:
+#	~/.gtkrc-2.0
+#	~/.config/gtk-3.0/settings.ini
+#	~/.config/gtk-4.0/settings.ini
+#
+# gtk-recent-files-max-age=0
+# gtk-recent-files-limit=0
+
+
+rm ~/.local/share/recently-used.xbel
+rm ~/.local/share/user-places.xbel

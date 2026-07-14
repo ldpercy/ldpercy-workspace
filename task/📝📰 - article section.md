@@ -19,4 +19,10 @@ I'd probably keep the articles in here, and add this repo to the public one as a
 Something like that anyway.
 
 
+Markdown
+--------
+
+Need to convert md to html, bread-and-butter on the web these days.
+Loads of 'proper' ones out there, I want something easy and basic.
+Will have a crack at simple one-file module, happy to work off pre-existing examples.
 
