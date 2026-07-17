@@ -2,16 +2,33 @@ KDE
 ===
 
 
-https://kde.org/announcements/megarelease/6/
+https://kde.org/announcements/
 
 
 https://store.kde.org/browse/
 
 
 
+Software & Applications
+-----------------------
 
-Features
---------
+* KCron - cron gui plugin for System Settings;  appears under 'Session'
+* kde-config-flatpak - flatpak admin module for System Settings; becomes available in 'Application Permissions'
+* Package management - Muon is being removed from repositories, have to use Synaptic (gtk) instead
+
+https://news.softpedia.com/news/kde-announces-systemdgenie-a-graphical-tool-for-managing-systemd-and-user-units-511119.shtml
+
+https://userbase.kde.org/Plasma_application_launchers
+
+
+### Note taking
+
+https://apps.kde.org/en-gb/marknote/
+
+
+
+Virtual Desktops and Activities
+-------------------------------
 
 KDE Plasma Virtual Desktops and Activities (what's the difference?) Joe Longo
 https://www.youtube.com/watch?v=fWKbZlPI12Y
@@ -28,36 +45,10 @@ Grouped like this:
 		a2 desktop 2
 
 
-Software & Applications
------------------------
-
-https://news.softpedia.com/news/kde-announces-systemdgenie-a-graphical-tool-for-managing-systemd-and-user-units-511119.shtml
-
-https://userbase.kde.org/Plasma_application_launchers
 
 
-### Muon
-
-Is being removed from repositories, have to use Synaptic (gtk) instead.
-
-
-### Flatpak
-
-There is a flatpak admin module for the System Settings:
-
-	kde-config-flatpak
-
-
-
-### Note taking
-
-https://apps.kde.org/en-gb/marknote/
-
-
-
-
-Upgrading Kubuntu
------------------
+Kubuntu release upgrades
+------------------------
 
 	pkexec do-release-upgrade -m desktop -f DistUpgradeViewKDE
 
