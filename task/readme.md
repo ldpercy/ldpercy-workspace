@@ -6,7 +6,9 @@ Task
 Todo
 ----
 
-* Still looking for a nice, graphical way to compare branches in VSCode (/other)
+* Next html-common release
+* Start looking into PWAs; evaluate applicability for the apps like medit  
+* Still looking for a nice, graphical way to compare branches in VSCode (/other) - trialling Branch Compare by CodexDebayan
 * xml language server for kate, eg lemminx
 * Keep working through [style flow](<🎨🢡🖽 - style flow.md>)
 * btrfs subvolume moving - sometimes doesn't work???
