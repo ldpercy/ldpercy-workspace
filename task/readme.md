@@ -7,7 +7,7 @@ Todo
 ----
 
 * Next html-common release
-* Start looking into PWAs; evaluate applicability for the apps like medit  
+* Start looking into PWAs; evaluate applicability for the apps like medit
 * Still looking for a nice, graphical way to compare branches in VSCode (/other) - trialling Branch Compare by CodexDebayan
 * xml language server for kate, eg lemminx
 * Keep working through [style flow](<🎨🢡🖽 - style flow.md>)
@@ -65,6 +65,12 @@ Done
 
 
 
+Ideas
+-----
+### A kde plasma widget to display a markdown file
+There is a widget to display a webpage, have a look at as an example.
 
-
+* https://develop.kde.org/docs/plasma/widget/
+* https://develop.kde.org/docs/plasma/widget/examples/
+* https://invent.kde.org/plasma/libplasma/-/tree/master/examples/applets
 

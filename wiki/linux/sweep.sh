@@ -34,5 +34,5 @@ rm ~/.log/vlc.log
 # gtk-recent-files-limit=0
 
 
-rm ~/.local/share/recently-used.xbel
-rm ~/.local/share/user-places.xbel
+echo '' > ~/.local/share/recently-used.xbel
+echo '' > ~/.local/share/user-places.xbel

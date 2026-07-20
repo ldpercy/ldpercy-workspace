@@ -1,6 +1,9 @@
 Bash
 ====
 
+* LSP - https://github.com/bash-lsp/bash-language-server
+
+
 
 Quotes
 ------
