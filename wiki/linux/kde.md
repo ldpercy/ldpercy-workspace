@@ -1,9 +1,7 @@
 KDE
 ===
 
-
 https://kde.org/announcements/
-
 
 https://store.kde.org/browse/
 
@@ -13,7 +11,6 @@ Software & Applications
 -----------------------
 
 * KCron - cron gui plugin for System Settings;  appears under 'Session'
-* KAlarm
 * kde-config-flatpak - flatpak admin module for System Settings; becomes available in 'Application Permissions'
 * Package management - Muon is being removed from repositories, have to use Synaptic (gtk) instead
 
@@ -24,15 +21,49 @@ https://userbase.kde.org/Plasma_application_launchers
 
 ### Kate
 
-LPSs:
+Language servers:
 * https://github.com/bash-lsp/bash-language-server
 * https://github.com/artempyanykh/marksman
 * https://github.com/redhat-developer/vscode-xml#lemminx-binary
 
 
+### KAlarm
+
+	~/.config/kalarmrc					basic app settings
+	~/.config/kalarmresources			registered calendar files
+
+* Is added as an autostart item in `~/.config/autostart`
+* Unavailable calendar files appear in the ui, but need to be reloaded once they become accessible to take effect
+
+
 ### Note taking
 
 https://apps.kde.org/en-gb/marknote/
+
+
+
+Settings
+---------
+
+### Autostart
+
+Entries are stored as desktop items in `~/.config/autostart`.
+
+
+### Date format to iso8601
+
+Dolphin follows the user's locale settings (which are based upon the system [default locale](locale.md) set during install).
+
+Most locales don't use iso8601 for their date format so need to specify a time locale that does, such as en_CA (Canadian English) eh. Sorry.
+
+Settings -> Language & Time -> Region & Language -> Time
+
+This gets stored in `~/.config/plasma-localerc` - example:
+```
+[Formats]
+LANG=en_AU.UTF-8
+LC_TIME=en_CA.UTF-8
+```
 
 
 
@@ -56,10 +87,13 @@ Grouped like this:
 
 
 
+
 Kubuntu release upgrades
 ------------------------
 
 	pkexec do-release-upgrade -m desktop -f DistUpgradeViewKDE
+
+
 
 
 
@@ -74,22 +108,4 @@ Reset displays after turning one off:
 
 When kde taskbar crashes (hopefully won't be needed under 6):
 	plasmashell --replace &
-
-
-
-Date format to iso8601
-----------------------
-Dolphin follows the user's locale settings (which are based upon the system [default locale](locale.md) set during install).
-
-Most locales don't use iso8601 for their date format so need to specify a time locale that does, such as en_CA (Canadian English) eh. Sorry.
-
-Settings -> Language & Time -> Region & Language -> Time
-
-This gets stored in `~/.config/plasma-localerc` - example:
-```
-[Formats]
-LANG=en_AU.UTF-8
-LC_TIME=en_CA.UTF-8
-```
-
 
