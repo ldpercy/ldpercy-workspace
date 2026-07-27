@@ -13,7 +13,22 @@ https://www.linux.com/training-tutorials/how-full-encrypt-your-linux-system-lvm-
 
 
 
+Passphrase change
+-----------------
 
+* https://www.baeldung.com/linux/luks-change-passphrase
+* https://www.cyberciti.biz/security/how-to-change-luks-disk-encryption-passphrase-in-linux/
+* https://www.golinuxcloud.com/change-luks-device-master-key-cipher-linux/
+
+```bash
+# check:
+lsblk
+sudo cryptsetup luksDump /dev/sdX
+# change:
+sudo cryptsetup luksChangeKey /dev/sdX
+# test
+sudo cryptsetup --verbose open --test-passphrase /dev/sdbX
+```
 
 
 LVM on LUKS
