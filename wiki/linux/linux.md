@@ -36,6 +36,17 @@ https://askubuntu.com/questions/1442557/what-does-176-mean-in-linux-magic-sysrq-
 So only `s`,`u` and `b` actually do anything.
 
 
+
+Symbolic links
+--------------
+
+Symbolic links are 'live' and reflect the availability of the linked resource as it changes.
+
+
+
+
+
+
 Random
 ------
 

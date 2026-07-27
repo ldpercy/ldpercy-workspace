@@ -13,7 +13,6 @@ Central space to coordinate cross-project work, plus a very scrappy wiki.
 Tasks
 -----
 
-
 Currently working on:
 
 * `medit`			- [use file api instead of anchor download](<../medit/[task]/🤖🖫⑴ - android overwrite.md>)

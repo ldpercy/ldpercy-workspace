@@ -6,7 +6,7 @@ Task
 Todo
 ----
 
-* Find a suitable small markdown repo to fork
+
 * Libraries for the various iCalendar formats
 * Next html-common release
 * Start looking into PWAs; evaluate applicability for apps like medit
@@ -47,13 +47,13 @@ Take it out for now, do some experimenting to see if it can be made to work.
 In progress
 -----------
 
-* Simple text/md editor -> Medit
-* linting with https://quick-lint-js.com/	https://github.com/quick-lint/quick-lint-js
+* Have forked a couple of small markdown repos to start looking at
 * [🪓⮁ - axis inversion for planar-space](<🪓⮁ - axis inversion for planar-space.md>)
 
 
 Done
 ----
+* linting with https://quick-lint-js.com/	https://github.com/quick-lint/quick-lint-js
 * [common styles](<done/2026-05-21 - common styles.md>)
 * [submodule dev pattern](<done/2026-04-16 - submodule development pattern.md>) & [deployment process](<../ldpercy/deployment process.md>)
 * The current version of polygon has been [split out into a new a screensaver project](<done/2026-03-26 - screensaver project.md>)
