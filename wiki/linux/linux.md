@@ -87,3 +87,23 @@ https://wiki.ubuntu.com/SecurityTeam/KnowledgeBase/SpectreAndMeltdown/Mitigation
 
 
 https://github.com/speed47/spectre-meltdown-checker
+
+
+
+
+
+Useful things
+-------------
+
+* nethogs
+* htop
+* iotop
+* btrbk
+* keychain
+* lm-sensors / sensors-detect
+* chkrootkit
+* util-linux-extra (hwclock)
+
+
+
+
