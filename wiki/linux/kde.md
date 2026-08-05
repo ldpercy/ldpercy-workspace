@@ -13,6 +13,7 @@ Software & Applications
 * KCron - cron gui plugin for System Settings;  appears under 'Session'
 * kde-config-flatpak - flatpak admin module for System Settings; becomes available in 'Application Permissions'
 * Package management - Muon is being removed from repositories, have to use Synaptic (gtk) instead
+* kgamma2 - https://blog.davidedmundson.co.uk/blog/wayland-and-kgamma/
 
 https://news.softpedia.com/news/kde-announces-systemdgenie-a-graphical-tool-for-managing-systemd-and-user-units-511119.shtml
 

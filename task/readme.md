@@ -7,9 +7,8 @@ Todo
 ----
 
 * `git`			A way to compress/archive a series of commits into a single commit, like a squash merge
-* `regex`		Regex visualiser/editor for vscode et al
 * `markdown`	[markdown lib](<M🡇 - markdown lib.md>)
-* `ical`		Libraries for the various iCalendar formats
+* `ical`		Libraries for the various iCalendar formats - ical.js
 * `html-common`	Next html-common release
 * `pwa`			Start looking into PWAs; evaluate applicability for apps like medit
 * `git`			Still looking for a nice, graphical way to compare branches in VSCode (/other) - trialling Branch Compare by CodexDebayan
@@ -17,7 +16,7 @@ Todo
 * `css`			Keep working through [style flow](<🎨🢡🖽 - style flow.md>)
 * `btrfs`		subvolume moving - sometimes doesn't work???
 * `btrfs`		btrfs/btrbk/sata - transfer throttle during send/receive - where are the bottlenecks coming from?
-* `linux`		event-based script triggering, eg on storage device mount?
+* `linux`		event-based script triggering, eg on storage device mount? a few ways: systemd, udev; maybe via a kde autostart script
 * `dev`			[mvc pattern](<👠🎑🎛 - mvc pattern.md>)
 * `github`		revamp ldpercy.github.io; pull in anything useful from ldpercy-portfolio repo (then archive it)
 * `license`		Licensing...
@@ -46,8 +45,9 @@ Take it out for now, do some experimenting to see if it can be made to work.
 In progress
 -----------
 
-* `markdonw`	Have forked a couple of small markdown repos to start looking at
-* `html-common`	[🪓⮁ - axis inversion for planar-space](<🪓⮁ - axis inversion for planar-space.md>)
+* `regex`			Regex visualiser: regexper
+* `markdown`		Re-reviewing best course here
+* `html-common`		[🪓⮁ - axis inversion for planar-space](<🪓⮁ - axis inversion for planar-space.md>)
 
 
 Done
