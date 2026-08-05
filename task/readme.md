@@ -6,6 +6,7 @@ Task
 Todo
 ----
 
+* Regex visualiser/editor for vscode etc
 * [markdown lib](<M🡇 - markdown lib.md>)
 * Libraries for the various iCalendar formats
 * Next html-common release

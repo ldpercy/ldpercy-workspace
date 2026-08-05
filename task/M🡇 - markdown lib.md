@@ -43,5 +43,9 @@ Drawdown
 --------
 Had started here as it looked the most straightforward, but it's a bit more complex than it first appeared.
 
+Deciding whether I want to continue as a fork, or start fresh.
+By the time I'd be done with it it wouldn't have much to tether it to the original.
+(Actually looks like it might itself have been forked from nano-markdown?)
 
+I might be better off clean slating, and just pulling in ideas and bits and pieces from different projects as required.
 
