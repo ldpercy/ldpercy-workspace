@@ -6,6 +6,7 @@ Task
 Todo
 ----
 
+* `silver`		start on a js silver-data lib
 * `git`			A way to compress/archive a series of commits into a single commit, like a squash merge
 * `markdown`	[markdown lib](<M🡇 - markdown lib.md>)
 * `ical`		Libraries for the various iCalendar formats - ical.js

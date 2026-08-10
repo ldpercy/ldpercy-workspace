@@ -49,3 +49,11 @@ By the time I'd be done with it it wouldn't have much to tether it to the origin
 
 I might be better off clean slating, and just pulling in ideas and bits and pieces from different projects as required.
 
+
+
+Pivot again
+-----------
+For the moment I'm going to put this on the backburner.
+I could maybe do it, but I feel like the time&effort required would probably be better spent on a return to silver-data.
+If successful it could well be a better solution anyway.
+
