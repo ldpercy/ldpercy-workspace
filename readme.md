@@ -14,7 +14,7 @@ Tasks
 -----
 
 Currently working on:
-
+* `silver`			- js lib for silver-data
 * `medit`			- [use file api instead of anchor download](<../medit/[task]/🤖🖫⑴ - android overwrite.md>)
 * `html-common`		- [continued work on common styles](<../html-common/[task]/v0/0.3 - common styles.md>)
 * `year-clock`		- [Get proper light-dark scheme control going](<../year-clock/[task]/2.💡🕶 - proper light-dark schemes.md>)

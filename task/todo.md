@@ -6,7 +6,7 @@ Task
 Todo
 ----
 
-* `silver`		start on a js silver-data lib
+
 * `git`			A way to compress/archive a series of commits into a single commit, like a squash merge
 * `markdown`	[markdown lib](<M🡇 - markdown lib.md>)
 * `ical`		Libraries for the various iCalendar formats - ical.js
@@ -46,9 +46,13 @@ Take it out for now, do some experimenting to see if it can be made to work.
 In progress
 -----------
 
+* `silver`			[start on a js silver-data lib](../../silver-language/silverdata-js/readme.md)
 * `regex`			Regex visualiser: regexper
 * `markdown`		Re-reviewing best course here
 * `html-common`		[🪓⮁ - axis inversion for planar-space](<🪓⮁ - axis inversion for planar-space.md>)
+
+
+
 
 
 Done
