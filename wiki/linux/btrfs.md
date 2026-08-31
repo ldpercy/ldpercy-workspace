@@ -92,6 +92,9 @@ Not working for me currently.
 https://github.com/knorrie/btrfs-heatmap
 
 
+	sudo btrfs-heatmap /btrfs-volume-mountpoint/
+
+
 ### btrfs maintenance
 
 https://github.com/kdave/btrfsmaintenance
