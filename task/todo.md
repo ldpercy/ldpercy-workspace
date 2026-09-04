@@ -73,10 +73,21 @@ Done
 
 Ideas
 -----
-### A kde plasma widget to display a markdown file
+
+### KDE plasma widget to display a markdown file
 There is a widget to display a webpage, have a look at as an example.
 
 * https://develop.kde.org/docs/plasma/widget/
 * https://develop.kde.org/docs/plasma/widget/examples/
 * https://invent.kde.org/plasma/libplasma/-/tree/master/examples/applets
+
+
+### Ambient sound generator
+
+Kind of like a screesaver that generates random patterns, but for audio
+
+* https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API
+* https://developer.mozilla.org/en-US/docs/Web/API/OscillatorNode
+
+An interesting variant on this would be a 'sound-clock' that represents things like hours/minutes/seconds with various kinds of audio cues/transitions.
 
