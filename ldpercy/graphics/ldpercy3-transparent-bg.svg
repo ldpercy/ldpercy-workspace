@@ -20,7 +20,7 @@
 		.silver {
 			fill:silver;
 		}
-		.blad-body { fill:black; }
+		.blad-body { fill:#111; }
 		.blad-face { fill:#9a9; }
 
 		.ldpe-body { fill:darkgreen }
