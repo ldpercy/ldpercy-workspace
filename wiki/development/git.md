@@ -205,6 +205,29 @@ https://youtu.be/Md44rcw13k4?t=479
 
 
 
+
+Keyword substitution
+--------------------
+
+Not recommended in git, but there are ways to do it.
+See example on geekforgeeks
+
+`.gitattributes`
+```
+# use substitiution on index.json
+project.json	filter=keyword_expansion
+
+# keyword expansion filter
+[filter "keyword_expansion"]
+	clean = git-keyword-filter %f			# this would need to be written, see example on geekforgeeks
+	smudgge = cat
+	required
+```
+
+Worth investigating whether anything vaguely similar could be done with hooks...?
+
+
+
 GitHub
 ------
 https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data-github
