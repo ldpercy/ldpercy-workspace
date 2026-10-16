@@ -22,3 +22,10 @@ Need to add something like this to the root of each project:
 
 
 
+Standardise meta folders?
+-------------------------
+Starting to wonder whether the task and wiki folders might be better off combined into a singular `[project]` folder.
+Keeping it neat like this though would be need a little adjusting.
+
+Task could still be a subdir, not sure yet about the the history.
+
