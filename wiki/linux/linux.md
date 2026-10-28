@@ -107,3 +107,7 @@ Useful things
 
 
 
+Hibernation
+-----------
+https://www.phoronix.com/news/Linux-Hibernation-With-Lockdown
+

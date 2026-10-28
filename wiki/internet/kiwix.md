@@ -7,3 +7,8 @@ Kiwix
 
 
 https://github.com/openzim/zim-requests
+
+
+
+Android path:
+mtp:/[phone]/SD card/Android/media/org.kiwix.kiwixmobile/Kiwix/
