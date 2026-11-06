@@ -1,6 +1,11 @@
 Disk encryption
 ===============
 
+> [!WARNING]
+> These are my own notes, and mightn't be correct (or up-to-date, optimal etc) - I'm not an expert at this stuff
+
+
+
 
 https://wiki.archlinux.org/title/Dm-crypt/Encrypting_an_entire_system
 
@@ -29,6 +34,19 @@ sudo cryptsetup luksChangeKey /dev/sdX
 # test
 sudo cryptsetup --verbose open --test-passphrase /dev/sdbX
 ```
+
+
+Manual unlock
+-------------
+
+https://wiki.archlinux.org/title/Dm-crypt/Device_encryption/#Unlocking/Mapping_LUKS_partitions_with_the_device_mapper
+
+```bash
+# cryptsetup open device dm_name
+
+sudo cryptsetup open /dev/sdX temp_mapper_name
+```
+
 
 
 LVM on LUKS
