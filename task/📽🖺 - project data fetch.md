@@ -1,6 +1,10 @@
 Project data fetch
 ==================
 
+```
+2026-10-13		📽🖺	new task
+```
+
 From: [ldpercy.github.io/[task]/project data fetch](<../../ldpercy.github.io/[task]/project data fetch.md>)
 
 So far the data in ldpercy.github.io is all hardcoded.
