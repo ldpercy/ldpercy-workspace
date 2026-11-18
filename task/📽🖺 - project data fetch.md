@@ -52,3 +52,16 @@ This is the next logical step, undecided if I want to do it now or release what 
 
 Also feel like a bit more thought might need to go into it...
 
+
+Start wrapup and pushing
+------------------------
+
+I've gone through all the projects (that I want on ldpercy.github.io) and made a bunch of updates:
+* Added `project.js`
+* 'task' and 'wiki' dirs combined into 'project' directory (some polish perhaps still needed there)
+* Added 'project/screenshot' dir so that each projecy hsots it's own screenshots
+* Various little improvements all around while working through it all
+
+At this point I'm really just polishing, and trying to avoid going down further rabbit holes.
+
+So I'm going to cut it off around about here and start pushing things.

@@ -45,11 +45,12 @@ Take it out for now, do some experimenting to see if it can be made to work.
 
 In progress
 -----------
-
-* `silver`			[start on a js silver-data lib](../../silver-language/silverdata-js/readme.md)
-* `regex`			Regex visualiser: regexper
-* `markdown`		Re-reviewing best course here
-* `html-common`		[🪓⮁ - axis inversion for planar-space](<🪓⮁ - axis inversion for planar-space.md>)
+* `html-common`			project-data
+* `ldpercy.github.io`	project-data
+* `silver`				[start on a js silver-data lib](../../silver-language/silverdata-js/readme.md)
+* `regex`				Regex visualiser: regexper
+* `markdown`			Re-reviewing best course here
+* `html-common`			[🪓⮁ - axis inversion for planar-space](<🪓⮁ - axis inversion for planar-space.md>)
 
 
 
