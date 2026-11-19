@@ -14,8 +14,9 @@ Tasks
 -----
 
 Currently working on:
-* `ALL`					- Adding project-data
 * `html-common`			- project-data release
+* `ALL`					- Adding project-data, prepping for release
+* `ldpercy.github.io`	- Convert project cards to use project-data
 * `silver`				- js lib for silver-data
 * `medit`				- [use file api instead of anchor download](<../medit/[task]/🤖🖫⑴ - android overwrite.md>)
 * `year-clock`			- [Get proper light-dark scheme control going](<../year-clock/[task]/2.💡🕶 - proper light-dark schemes.md>)

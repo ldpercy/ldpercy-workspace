@@ -53,15 +53,32 @@ This is the next logical step, undecided if I want to do it now or release what 
 Also feel like a bit more thought might need to go into it...
 
 
-Start wrapup and pushing
-------------------------
+Start wrapping this whole thing up
+----------------------------------
 
-I've gone through all the projects (that I want on ldpercy.github.io) and made a bunch of updates:
-* Added `project.js`
-* 'task' and 'wiki' dirs combined into 'project' directory (some polish perhaps still needed there)
-* Added 'project/screenshot' dir so that each projecy hsots it's own screenshots
-* Various little improvements all around while working through it all
+I've gone through all the projects (that I want displayed on ldpercy.github.io) and made a bunch of updates:
+* Added `project.js` data files
+* 'task' and 'wiki' dirs combined into 'project' directory - some polish perhaps still needed there
+* Added 'project/screenshot' dir so that each project hosts it's own screenshots
+* Various little improvements all around (most fairly superficial) while working through it all
 
-At this point I'm really just polishing, and trying to avoid going down further rabbit holes.
+At this point I'm really just polishing and tweaking things, and trying to avoid going down further rabbit holes.
 
 So I'm going to cut it off around about here and start pushing things.
+
+Will release new versions of all the projects first
+
+
+Project releases
+----------------
+
+* First to go will be html-common
+* Then all the regular projects, turtle, yearclock etc
+* And finally ldpercy.gihub.io
+
+### html-common
+
+This is getting semver `0.4.0`
+
+
+
