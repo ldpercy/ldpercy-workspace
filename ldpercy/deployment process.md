@@ -21,10 +21,11 @@ On the task branch:
 
 * [ ] `.gitmodules` branch tracking updated
 * [ ] task wrapup written & committed
-* [ ] update version string in codebase
+* [ ] update version string(s) in codebase
+* [ ] update `project.js`
 * [ ] update task header
-* [ ] move task doc to 'done' folder with new version string
-* [ ] update task and main readmes
+* [ ] move task doc to `[project]/vX/` folder with new version string
+* [ ] update project/todo and main readme
 
 
 ### 3 - Github pull request
