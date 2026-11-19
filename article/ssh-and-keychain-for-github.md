@@ -1,6 +1,11 @@
 ssh & keychain for Github
 =========================
 
+> [!NOTE]
+> Keychain v3 has been released, updates for this doc are in progress
+
+
+
 This process will create ssh authentication and signing keys for github with the following names:
 
 	authentication-key
@@ -15,6 +20,8 @@ N.B. Although this is intended for Github, the process for Gitlab is virtually i
 	- [Create ssh config file for authentication with github.com](#create-ssh-config-file-for-authentication-with-githubcom)
 	- [Set local git to use signing key](#set-local-git-to-use-signing-key)
 	- [Keychain install and run](#keychain-install-and-run)
+		- [Keychain v3.x](#keychain-v3x)
+		- [Keychain v2.x](#keychain-v2x)
 		- [NB for Wayland sessions use this instead:](#nb-for-wayland-sessions-use-this-instead)
 	- [Add keys to github](#add-keys-to-github)
 
@@ -71,10 +78,30 @@ git config --global commit.gpgsign true
 Keychain install and run
 ------------------------
 
+### Keychain v3.x
+
+Debian/Ubuntu repos still hold Keychain 2.x releases, but v3 releases are downloadable as executable python scripts from Daniel Robbins github:
+
+	github.com/danielrobbins/keychain/
+
+Eg `keychain-3.0.8.pyz`, approx 115kb.
+
+An easy way to set up 3.x is to alias keychain to a local download in `.bashrc`, eg:
+```bash
+alias keychain="~/Downloads/keychain-3.0.8.pyz"
+```
+
+With that alias, run keychain in bashrc with a line like:
+```bash
+eval "$(keychain add --eval ~/.ssh/authentication-key ~/.ssh/signing-key)"
+```
+
+
+### Keychain v2.x
+
 > [!WARNING]
-> Keychain is in active development again; the new python v3 will be out shortly so this will need updating.
->
-> The following is for keychain 2.x
+> Keychain is in active development again and v3 has been released.
+> The following is for keychain 2.x for reference
 
 Main documentation: https://www.funtoo.org/Funtoo:Keychain
 
@@ -107,3 +134,4 @@ Add keys to github
 Log into your github account and head to https://github.com/settings/keys
 
 Add the authentication and signing ssh keys (.pub files), taking care to specify the key type for each correctly.
+
