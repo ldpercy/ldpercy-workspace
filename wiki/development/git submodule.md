@@ -119,6 +119,9 @@ Equivalent to in `~/.gitconfig`:
 Troubleshooting
 ---------------
 
+*  https://dawid.dev/dev/git/Git-Submodule-Troubleshooting
+
+
 ### 'file' not allowed
 
 	Cloning into '/local/path/to/superproject/$submoduleDir'...
