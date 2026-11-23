@@ -6,7 +6,7 @@ Task
 Todo
 ----
 
-
+* `vscode`		A way to save/switch editor working sets (used to do this *years* ago in Eclipse) - would be useful in larger projects like html-experiment
 * `git`			A way to compress/archive a series of commits into a single commit, like a squash merge
 * `markdown`	[markdown lib](<M🡇 - markdown lib.md>)
 * `ical`		Libraries for the various iCalendar formats - ical.js
@@ -45,8 +45,10 @@ Take it out for now, do some experimenting to see if it can be made to work.
 
 In progress
 -----------
-* `html-common`			project-data
-* `ldpercy.github.io`	project-data
+
+* `medit`				project-data merge and release
+* `screensaver`			project-data merge and release
+* `ldpercy.github.io`	project-data preparation
 * `silver`				[start on a js silver-data lib](../../silver-language/silverdata-js/readme.md)
 * `regex`				Regex visualiser: regexper
 * `markdown`			Re-reviewing best course here
@@ -58,6 +60,7 @@ In progress
 
 Done
 ----
+* `html-common`		v0.4 release for project-data
 * `js`				linting with https://quick-lint-js.com/	https://github.com/quick-lint/quick-lint-js
 * `html-copmmon`	[common styles](<done/2026-05-21 - common styles.md>)
 * `dev`				[submodule dev pattern](<done/2026-04-16 - submodule development pattern.md>) & [deployment process](<../ldpercy/deployment process.md>)

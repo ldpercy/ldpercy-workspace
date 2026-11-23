@@ -83,9 +83,10 @@ This is getting semver `0.4.0`
 Done.
 
 
-### Screensaver
+### Screensaver & Medit
 
-[screensaver project data](<../../screensaver/[project]/0.5 - project-data.md>)
+* [screensaver - project data](<../../screensaver/[project]/0.5 - project-data.md>)
+* [medit - project data](<../../medit/[project]/0.3 - project data.md>)
 
-Next to go will be screensaver - it's lowish priority/risk, not too concerned about bugs in there.
+Next to go will be screensaver & medit - they're lowish priority/risk, not too concerned about bugs in those.
 
