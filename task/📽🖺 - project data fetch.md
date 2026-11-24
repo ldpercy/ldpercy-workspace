@@ -86,7 +86,9 @@ Done.
 ### Screensaver & Medit
 
 * [screensaver - project data](<../../screensaver/[project]/0.5 - project-data.md>)
-* [medit - project data](<../../medit/[project]/0.3 - project data.md>)
 
 Next to go will be screensaver & medit - they're lowish priority/risk, not too concerned about bugs in those.
+
+Medit done & released: [0.3 - project data](<../../medit/[project]/v0/0.3 - project data.md>)
+
 
