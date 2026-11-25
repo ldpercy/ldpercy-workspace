@@ -9,10 +9,10 @@ Have a standard project data format for ldpercy.github.io to fetch from.
 
 ### deployments
 
-* [x] 2026-10-31	`html-experiment` initial project.js
-* [x] 2026-11-19	`html-common`	v0.4.0
-* [x] 2026-11-24	`medit`			v0.3.0
-* [ ] `silverdata-js`
+* [x] 2026-10-31	`html-experiment` 	initial project.js
+* [x] 2026-11-19	`html-common`		v0.4.0
+* [x] 2026-11-24	`medit`				v0.3.0
+* [x] 2026-11-25	`silverdata-js`		v0.0.1
 * [ ] `thought cloud`
 * [ ] `screensaver`
 * [ ] `turtle`
@@ -115,9 +115,8 @@ I'd still like to work on it for fun, but if I do find something out there that 
 
 Medit done & released: [0.3 - project data](<../../medit/[project]/v0/0.3 - project data.md>)
 
-
-silverdata-js
-[silverdata notes](<../../silver-language/silverdata-js/[project]/🎁🐣 - initial work.md>)
+silverdata-js - [0.0.1 released](<../../silver-language/silverdata-js/[project]/🎁🐣 - initial work.md>)
+NB the deployment path for silverdata-js is actually `silver-language.github.io/silverdata-js/` so will need to work out some things for this path...
 
 
 

@@ -6,7 +6,8 @@ Task
 Todo
 ----
 
-* `vscode`		A way to save/switch editor working sets (used to do this *years* ago in Eclipse) - would be useful in larger projects like html-experiment
+* `vscode`		A way to save/switch editor working sets (used to do this *years* ago in Eclipse) - would be useful in larger projects like html-experiment. Possible lead:
+	* https://marketplace.visualstudio.com/items?itemName=lukasvrajik.context-switcher
 * `git`			A way to compress/archive a series of commits into a single commit, like a squash merge
 * `markdown`	[markdown lib](<M🡇 - markdown lib.md>)
 * `ical`		Libraries for the various iCalendar formats - ical.js

@@ -28,6 +28,7 @@ Currently working on:
 
 
 Recently done:
+* `silverdata-js`		- project-data 0.0.1
 * `medit`				- project-data & sundries [v0.3.0](<../medit/[project]/v0/0.3 - project data.md>)
 * `html-common`			- project-data release [v0.4.0](<../html-common/[project]/v0/0.4 - project data.md>)
 * `ldpercy.github.io`	- conversion to html page
