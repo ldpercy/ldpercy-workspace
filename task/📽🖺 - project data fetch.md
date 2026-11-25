@@ -1,9 +1,29 @@
 Project data fetch
 ==================
 
+Have a standard project data format for ldpercy.github.io to fetch from.
+
 ```
 2026-10-13		📽🖺	new task
 ```
+
+### deployments
+
+* [x] 2026-10-31	`html-experiment` initial project.js
+* [x] 2026-11-19	`html-common`	v0.4.0
+* [x] 2026-11-24	`medit`			v0.3.0
+* [ ] `silverdata-js`
+* [ ] `thought cloud`
+* [ ] `screensaver`
+* [ ] `turtle`
+* [ ] `yearclock`
+* [ ] `ldpercy.github.io`
+
+
+
+
+Description
+-----------
 
 From: [ldpercy.github.io/[task]/project data fetch](<../../ldpercy.github.io/[task]/project data fetch.md>)
 
@@ -72,23 +92,34 @@ Will release new versions of all the projects first
 Project releases
 ----------------
 
+(html-experiment went ages ago)
+
 * First to go will be html-common
 * Then all the regular projects, turtle, yearclock etc
 * And finally ldpercy.gihub.io
 
+
+
 ### html-common
 
-This is getting semver `0.4.0`
-
-Done.
+Done: [version 0.4.0](<../../html-common/[project]/v0/0.4 - project data.md>)
 
 
-### Screensaver & Medit
+### Medit, silverdata-js, screensaver
 
-* [screensaver - project data](<../../screensaver/[project]/0.5 - project-data.md>)
+Next to go will be medit, silverdata-js & screensaver - they're lowish priority/risk, not too concerned about bugs in those.
 
-Next to go will be screensaver & medit - they're lowish priority/risk, not too concerned about bugs in those.
+* I'm umming and ahhing about thought-cloud - not sure what the future holds for that project as it's really the sort of thing that's been done before & better loads of times.
+I'd still like to work on it for fun, but if I do find something out there that really nails the idea then it could get abandoned.
+
 
 Medit done & released: [0.3 - project data](<../../medit/[project]/v0/0.3 - project data.md>)
 
+
+silverdata-js
+[silverdata notes](<../../silver-language/silverdata-js/[project]/🎁🐣 - initial work.md>)
+
+
+
+Screensaver [screensaver - project data](<../../screensaver/[project]/0.5 - project-data.md>)
 
